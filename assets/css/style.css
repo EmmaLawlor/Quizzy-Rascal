@@ -1,1 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('../images/music-notes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ccc;
+    font-family: 'Nova Round', cursive;
+}
+
+.btn {
+    font-family: 'Nova Round', cursive;
+    
+}
