@@ -52,6 +52,10 @@ h2 {
     box-shadow: 0 0 3px 3px #0000ff;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 #play-btn-main {
     align-self: end;
 }
