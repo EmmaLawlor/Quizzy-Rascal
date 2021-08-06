@@ -47,7 +47,7 @@ h2 {
     font-weight: bold;
     font-size: 2rem;
     padding: 15px;
-    border: 1px solid #0000ff; 
+    border: 1px solid #0000ff;
     border-radius: 5px;
     box-shadow: 0 0 3px 3px #0000ff;
 }
@@ -64,9 +64,9 @@ h2 {
     align-self: start;
 }
 
+/*Code for modal adapted from W3Schools*/
 /*Rules Modal*/
 
-/* The Modal (background) */
 .modal {
     display: none;
     position: absolute;
@@ -74,59 +74,55 @@ h2 {
     left: 20vw;
     top: 20vh;
     width: 70vw;
-    height: 60vh;
+    height: auto;
     overflow: auto;
-  }
+}
 
-  /*Code for modal adapted from W3Schools*/
-  
-  /* Modal Content/Box */
-  .modal-content {
+.modal-content {
     color: #ffff00;
     background-color: #0000ff;
-    margin: 3rem auto; /* 15% from the top and centered */
+    margin: 3rem auto;
     padding: 20px;
     border: 2px solid #ffff00;
     width: 80%;
     min-width: 320px;
-  }
+}
 
-  .modal-content h3 {
-      font-size: 1.5rem;
-      text-decoration: overline underline;
-      padding-bottom: 10px;
-      letter-spacing: 2px;
-      text-align: center;
-  }
+.modal-content h3 {
+    font-size: 1.5rem;
+    text-decoration: overline underline;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
 
-  .modal-content p {
+.modal-content p {
     font-size: 1.3rem;
     padding: 20px;
     line-height: 1.4;
-  }
+}
 
-  .modal-content a {
-      text-align: center;
-  }
+.modal-content a {
+    text-align: center;
+}
 
-  #play-btn-modal{ 
-      position: relative;
-  }
-  
-  /* The Close Button */
-  .close {
+#play-btn-modal {
+    position: relative;
+}
+
+.close {
     color: #ffff00;
     float: right;
     font-size: 40px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #ffff00;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
 /*Quiz page styles*/
 #question-container {
@@ -134,6 +130,16 @@ h2 {
     margin: 1.5rem;
     text-align: center;
     background-color: #ffff00;
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid #0000ff;
+    border-radius: 5px;
+}
+
+#answers-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .answer {
@@ -144,5 +150,10 @@ h2 {
 #score-area {
     margin: 2rem;
     font-size: 2rem;
+    text-align: center;
+    background-color: #ffff00;
     font-weight: bold;
+    padding: 8px;
+    border: 2px solid #0000ff;
+    border-radius: 5px;
 }
