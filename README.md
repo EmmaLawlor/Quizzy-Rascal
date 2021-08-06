@@ -4,6 +4,7 @@
 Emma Lawlor
 
 ## Project Overview
+Quizzy Rascal is an interactive music trivia quiz. Desgined to provide entertainment to the user, the quiz asks 10 random music questions.The quiz is presented in a multiple choice format, displaying the correct/incorrect answers on submission and keeping track of user's score at the bottom of the window. 
 
 ## Table of Contents
 
@@ -11,8 +12,16 @@ Emma Lawlor
 
 ### Project Goals
 #### As the Site Owner I Want to:
+- Present a fun, interactive music quiz to the user.
+- Provide the user with instructions/rules for playing the quiz.
+- Give feedback to user when answer is selected, displaying both correct and incorrect options. 
+- Display user's current score throughout the running of the quiz.
 
 #### As the Site User I Want to:
+- Play and fun and easy to use quiz to test musix knowledge.
+- Progress easily and intuitively through the quiz, with the option of returning to the homescreen at any point.
+- Be informed whether chosen answer was correct or incorrect when selected.
+- Be aware of current score while progressing through the quiz. 
 
 ### Design Choices
 
