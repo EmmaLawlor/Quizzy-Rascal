@@ -12,13 +12,34 @@
 </head>
 
 <body>
-
+    <!--Quiz Name heading and sub-heading-->
     <h1>Quizzy Rascal</h1>
     <h2>The ultimate music trivia quiz</h2>
 
+    <!--Rules and Play button conatiner-->
     <div class="container">
+
+        <!--Play button-->
         <a href="quiz.html"><button id="play-btn" class="btn">Play!</button></a>
+        
+        <!--Rules Button-->
         <button id="rules-btn" class="btn">Rules</button>
+    </div>
+
+    <!-- Rules Modal -->
+    <div id="rulesModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>How to Play</h3>
+            <p>So you think you know music?
+                Click below to test your knowledge with 10 multiple choice questions. <br>
+                Each correct answer is worth 10 points.
+            </p>
+            <a href="quiz.html"><button id="play-btn" class="btn">Play!</button></a>
+        </div>
+
     </div>
 
     <script src="assets/js/script.js"></script>
