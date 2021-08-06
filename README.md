@@ -69,5 +69,5 @@ Emma Lawlor
 ### Acknowledgements
 - Favicon created using (favicon.io)[https://favicon.io/favicon-converter/]
 - Nova Round font imported from (Google Fonts)[https://fonts.google.com/specimen/Nova+Round?query=round#glyphs]
-
+- Help sought from W3Schools in creating modal to contain quiz rules. Code adapted and modified from (here)[https://www.w3schools.com/howto/howto_css_modals.asp]
 ### Thank You 
