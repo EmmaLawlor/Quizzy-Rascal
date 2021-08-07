@@ -49,10 +49,10 @@ function displayQuestion() {
   let questionNum = Math.floor(Math.random() * questions.length);
 
   questionBox.innerHTML = questions[questionNum].question;
-  answerA.innerHTML = questions[questionNum].answers[1];
-  answerB.innerHTML = questions[questionNum].answers[2];
-  answerC.innerHTML = questions[questionNum].answers[3];
-  answerD.innerHTML = questions[questionNum].answers[4];
+  answerA.innerHTML = questions[questionNum].answers['a'];
+  answerB.innerHTML = questions[questionNum].answers['b'];
+  answerC.innerHTML = questions[questionNum].answers['c'];
+  answerD.innerHTML = questions[questionNum].answers['d'];
 }
 
 //List of trivia questions
