@@ -56,6 +56,11 @@ h2 {
     cursor: pointer;
 }
 
+/*Code for botton click adapted from geeksforgeek.org*/
+.btn:active {
+    transform: scale(0.95);
+}
+
 #play-btn-main {
     align-self: end;
 }
