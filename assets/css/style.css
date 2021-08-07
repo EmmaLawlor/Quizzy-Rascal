@@ -147,6 +147,19 @@ h2 {
     display: grid
 }
 
+.answer-btn {
+    background-color: #0000ff;
+    color: #ffff00;
+    font-weight: bold;
+    padding: 15px 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-family: 'Nova Round';
+    letter-spacing: 2px;
+    border: 1px solid #ffff00;
+    border-radius: 5px;
+}
+
 #score-area {
     margin: 2rem;
     font-size: 2rem;
