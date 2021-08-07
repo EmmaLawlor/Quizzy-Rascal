@@ -4,27 +4,63 @@ let modal = document.getElementById("rulesModal");
 let rulesBtn = document.getElementById("rules-btn");
 
 let close = document.getElementsByClassName("close")[0];
-rulesBtn.onclick = function() {
-  modal.style.display = "block";
+
+if (rulesBtn) {
+  rulesBtn.addEventListener('click', function () {
+    modal.style.display = "block";
+  })
 }
 
-close.onclick = function() {
-  modal.style.display = "none";
+if (close) {
+  close.onclick = function () {
+    modal.style.display = "none";
+  }
+}      
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  runQuiz();
+
+  let answerBtn = document.getElementsByClassName('answer-btn');
+
+  answerBtn.addEventListener('click', checkAnswer());
+
+})
+
+function runQuiz() {
+
+  let questionTally = 0;
+
+  if (questionTally < 10) {
+    displayQuestion();
+  } 
+  
+  questionTally++;
+
 }
 
-let questionBox = document.getElementById('question-container');
-let answerBtnA = document.getElementById('answer-btn-A');
-let answerBtnB = document.getElementById('answer-btn-B');
-let answerBtnC = document.getElementById('answer-btn-C');
-let answerBtnD = document.getElementById('answer-btn-D');
-let score = document.getElementById('score-area');
+function displayQuestion() {
 
-let questions = [
-  {
+  let questionBox = document.getElementById('question-container');
+  let answerA = document.getElementById('answer-btn-A');
+  let answerB = document.getElementById('answer-btn-B');
+  let answerC = document.getElementById('answer-btn-C');
+  let answerD = document.getElementById('answer-btn-D');
+  let questionNum = Math.floor(Math.random() * questions.length);
+
+  questionBox.innerHTML = questions[questionNum].question;
+  answerA.innerHTML = questions[questionNum].answers[1];
+  answerB.innerHTML = questions[questionNum].answers[2];
+  answerC.innerHTML = questions[questionNum].answers[3];
+  answerD.innerHTML = questions[questionNum].answers[4];
+}
+
+//List of trivia questions
+let questions = [{
     question: 'Which rock band was founded by Trent Reznor in 1988?',
     answers: {
       a: "Jane's Addiction",
-      b: "Smashing Pumpkins"
+      b: "Smashing Pumpkins",
       c: "Nine Inch Nails",
       d: "Depeche Mode"
     },
@@ -59,7 +95,7 @@ let questions = [
       d: "Sting"
     },
     correctAnswer: "b"
-  }, 
+  },
   {
     question: "'Ten' was the 1991 debut album of which band?",
     answers: {
@@ -101,7 +137,7 @@ let questions = [
     correctAnswer: "d"
   },
   {
-    question:"Who was the first woman to be inducted into the Rock and Roll Hall of Fame?",
+    question: "Who was the first woman to be inducted into the Rock and Roll Hall of Fame?",
     answers: {
       a: "LaVern Baker",
       b: "Tina Turner",
@@ -110,7 +146,7 @@ let questions = [
     },
     correctAnswer: "c"
   },
-  { 
+  {
     question: "What was Jimi Hendrix's only Billboard Top 40 hit?",
     answers: {
       a: "Bold As Love",
