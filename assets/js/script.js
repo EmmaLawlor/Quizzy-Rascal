@@ -67,6 +67,10 @@ function displayQuestion() {
   answerD.innerHTML = questions[questionNum].answers['d'];
 }
 
+function checkAnswer() {
+
+}
+
 //List of trivia questions
 let questions = [{
     question: 'Which rock band was founded by Trent Reznor in 1988?',
