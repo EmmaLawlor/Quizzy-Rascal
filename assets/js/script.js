@@ -17,6 +17,7 @@ if (close) {
   }
 }      
 
+//Waits for page content to load, then runs quiz game
 document.addEventListener("DOMContentLoaded", function() {
 
   runQuiz();
@@ -26,6 +27,11 @@ document.addEventListener("DOMContentLoaded", function() {
   answerBtn.addEventListener('click', checkAnswer());
 
 })
+
+/**
+ * Displays new question
+ * up to a total of 10 questions
+ */
 
 function runQuiz() {
 
@@ -38,6 +44,12 @@ function runQuiz() {
   questionTally++;
 
 }
+
+/**
+ * Takes a random question from the trivia questions array
+ * and displays both the question and answer choices
+ * in their respective containers
+ */
 
 function displayQuestion() {
 
