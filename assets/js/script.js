@@ -89,7 +89,7 @@ let questions = [
       d: "The Rolling Stones"
     },
     correctAnswer: "a"
-  }
+  },
   {
     question: "Eminem's '8 Mile' is named after a road in which city?",
     answers: {
@@ -97,6 +97,146 @@ let questions = [
       b: "Seattle",
       c: "Michigan",
       d: "Detroit"
+    },
+    correctAnswer: "d"
+  },
+  {
+    question:"Who was the first woman to be inducted into the Rock and Roll Hall of Fame?",
+    answers: {
+      a: "LaVern Baker",
+      b: "Tina Turner",
+      c: "Aretha Franklin",
+      d: "Stevie Nicks"
+    },
+    correctAnswer: "c"
+  },
+  { 
+    question: "What was Jimi Hendrix's only Billboard Top 40 hit?",
+    answers: {
+      a: "Bold As Love",
+      b: "All Along the Watchtower",
+      c: "Purple Haze",
+      d: "Voodoo Child"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "Van Halen famously banned which color M&M's from their rider?",
+    answers: {
+      a: "Brown",
+      b: "Yellow",
+      c: "Blue",
+      d: "Red"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "Though made famous by Ike & Tina Turner, 'Proud Mary' was first recorded by whom?",
+    answers: {
+      a: "The Doors",
+      b: "Lynyrd Synyrd",
+      c: "Led Zeppelin",
+      d: "Creedence Clearwater Revival"
+    },
+    correctAnswer: "d"
+  },
+  {
+    question: "Actor Jared Leto is the frontman of which band?",
+    answers: {
+      a: "Linkin Park",
+      b: "Green Day",
+      c: "30 Seconds to Mars",
+      d: "The Used"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Which member of Kiss wears makeup to look like a cat?",
+    answers: {
+      a: "Vinnie Vincent",
+      b: "Peter Criss",
+      c: "Paul Stanley",
+      d: "Gene Simmons"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "Which rockstar's memoir is titled 'The Heroin Diaries'?",
+    answers: {
+      a: "Nikki Sixx",
+      b: "Ozzy Osbourne",
+      c: "Anthony Keidis",
+      d: "Neil Young"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "The 'J' in Mary J Blige stands for what?",
+    answers: {
+      a: "June",
+      b: "Jane",
+      c: "Joan",
+      d: "Jean"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "Lizzo plays which instrument?",
+    answers: {
+      a: "Saxaphone",
+      b: "Violin",
+      c: "Flute",
+      d: "Piana"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Which group recorded the hit 'Karma Chameleon' in 1984?",
+    answers: {
+      a: "Culture Club",
+      b: "Duran Duran",
+      c: "Spandau Ballet",
+      d: "The Pet Shop Boys"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "What was the name of the Spice Girls' 1996 debut album?",
+    answers: {
+      a: "Spiceworld",
+      b: "Forever",
+      c: "Wannabe",
+      d: "Spice"
+    },
+    correctAnswer: "d"
+  },
+  {
+    question: "Who is the lead singer of Smash Mouth?",
+    answers: {
+      a: "Sean Hurwitz",
+      b: "Randy Cooke",
+      c: "Steve Harwell",
+      d: "Paul de Lisle"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Which Pink Floyd album features a prism on the cover?",
+    answers: {
+      a: "Dark side of the moon",
+      b: "Animals",
+      c: "The Wall",
+      d: "The Division Bell"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "What does the Italian musical term 'adagio' mean?",
+    answers: {
+      a: "Loud",
+      b: "Quiet",
+      c: "Fast",
+      d: "Slow"
     },
     correctAnswer: "d"
   }
