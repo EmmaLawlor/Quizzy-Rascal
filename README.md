@@ -74,6 +74,7 @@ Quizzy Rascal is an interactive music trivia quiz. Desgined to provide entertain
 ### Media
 
 ### Content
+- Trivia content for quiz questions take from [Radio Times](https://www.radiotimes.com/quizzes/pub-quiz-music-round/) and [Thought Catalog](https://thoughtcatalog.com/samantha-newman/2020/04/music-trivia-questions/)
 
 ### Acknowledgements
 - Favicon created using (favicon.io)[https://favicon.io/favicon-converter/]
