@@ -54,10 +54,10 @@ function runQuiz() {
 function displayQuestion() {
 
   let questionBox = document.getElementById('question-container');
-  let answerA = document.getElementById('answer-btn-A');
-  let answerB = document.getElementById('answer-btn-B');
-  let answerC = document.getElementById('answer-btn-C');
-  let answerD = document.getElementById('answer-btn-D');
+  let answerA = document.getElementById('a');
+  let answerB = document.getElementById('b');
+  let answerC = document.getElementById('c');
+  let answerD = document.getElementById('d');
   let questionNum = Math.floor(Math.random() * questions.length);
 
   questionBox.innerHTML = questions[questionNum].question;
@@ -67,7 +67,18 @@ function displayQuestion() {
   answerD.innerHTML = questions[questionNum].answers['d'];
 }
 
+//Get id of answer button clicked by user and set it to variable userChoice
+let answers = document.getElementsByClassName('answer-btn');
+
+[...answers].forEach(answer => {
+ answer.addEventListener('click', function(event){
+ let userChoice = event.target.id;
+ console.log(userChoice);
+ })
+})
+
 function checkAnswer() {
+
 
 }
 
