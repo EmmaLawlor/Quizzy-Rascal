@@ -36,7 +36,7 @@ function runQuiz() {
   if (questionTally < 10) {
     playQuiz();
     questionTally++;
-    nextQuestion();
+    console.log(questionTally);
   }
 
 }
@@ -85,15 +85,14 @@ function playQuiz() {
 
 };
 
- /**
-   * Get current score and increments by 1 each time the function is called
-   * Code adapted from CI love maths walktrhough project
-   */ 
-  function incrementScore() {
-    let currentScore = parseInt(document.getElementById("score").innerText);
-    document.getElementById("score").innerText = ++currentScore;
-  }
-
+/**
+ * Get current score and increments by 1 each time the function is called
+ * Code adapted from CI love maths walktrhough project
+ */
+function incrementScore() {
+  let currentScore = parseInt(document.getElementById("score").innerText);
+  document.getElementById("score").innerText = ++currentScore;
+}
 
 //List of trivia questions
 let questions = [{

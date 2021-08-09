@@ -33,6 +33,9 @@ The name was chosen as a play on the stage name of English rapper Dizzee Rascal,
 
 - Images
 
+    - [Background Image](https://github.com/EmmaLawlor/quizzy-rascal/blob/main/assets/images/music-notes.jpg0) of black and white music notes chosen as it is in keeping with the musical theme of the quiz. The same image was used across all page of the site to maintain a sense of familiarity and to keep the overall layout simple and content-focused. 
+![Background Image](documentation/background-image.jpg)
+
 - Transitions/Animations
 
 ### Wireframes
@@ -74,6 +77,7 @@ The name was chosen as a play on the stage name of English rapper Dizzee Rascal,
 ## Credits
 
 ### Media
+- [Background Image](https://github.com/EmmaLawlor/quizzy-rascal/blob/main/assets/images/music-notes.jpg) of black and white music notes, used on all pages taken from [pxhere.com](https://pxhere.com/en/photo/1043482)
 
 ### Content
 - Trivia content for quiz questions take from [Radio Times](https://www.radiotimes.com/quizzes/pub-quiz-music-round/) and [Thought Catalog](https://thoughtcatalog.com/samantha-newman/2020/04/music-trivia-questions/)
