@@ -83,7 +83,9 @@ function playQuiz() {
     });
   });
 
-  /**
+};
+
+ /**
    * Get current score and increments by 1 each time the function is called
    * Code adapted from CI love maths walktrhough project
    */ 
@@ -91,12 +93,6 @@ function playQuiz() {
     let currentScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++currentScore;
   }
-
-  function nextQuestion() {
-
-  }
-
-}
 
 
 //List of trivia questions
