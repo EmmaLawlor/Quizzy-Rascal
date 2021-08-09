@@ -165,6 +165,24 @@ h2 {
     border-radius: 5px;
 }
 
+/*Changes answer button if correct*/
+.correct {
+    background-color: green;
+    color: white;
+    box-shadow: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/*Changes answer button if incorrect*/
+.incorrect {
+    background-color: red;
+    color: white;
+    box-shadow: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
 #score-area {
     margin: 2rem;
     font-size: 2rem;

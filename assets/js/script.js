@@ -77,8 +77,10 @@ function displayQuestion() {
       //Determines if the button selected by the user is correct by comparing with correct answer from array
       if (userChoice === questions[questionNum].correctAnswer) {
         console.log("Correct!");
+        this.classList.add("correct");
       } else {
         console.log("Incorrect");
+        this.classList.add("incorrect");
       }
 
     })
