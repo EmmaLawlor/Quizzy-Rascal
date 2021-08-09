@@ -15,10 +15,10 @@ if (close) {
   close.onclick = function () {
     modal.style.display = "none";
   }
-}      
+}
 
 //Waits for page content to load, then runs quiz game
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 
   runQuiz();
 
@@ -39,8 +39,8 @@ function runQuiz() {
 
   if (questionTally < 10) {
     displayQuestion();
-  } 
-  
+  }
+
   questionTally++;
 
 }
@@ -65,22 +65,24 @@ function displayQuestion() {
   answerB.innerHTML = questions[questionNum].answers['b'];
   answerC.innerHTML = questions[questionNum].answers['c'];
   answerD.innerHTML = questions[questionNum].answers['d'];
+
+  let answers = document.getElementsByClassName('answer-btn');
+  [...answers].forEach(answer => {
+    answer.addEventListener('click', function (event) {
+      let userChoice = event.target.id;
+      console.log(userChoice);
+
+      if (userChoice === questions[questionNum].correctAnswer) {
+        console.log("Correct!");
+      } else {
+        console.log("Incorrect");
+      }
+
+    })
+  })
+
 }
 
-//Get id of answer button clicked by user and set it to variable userChoice
-let answers = document.getElementsByClassName('answer-btn');
-
-[...answers].forEach(answer => {
- answer.addEventListener('click', function(event){
- let userChoice = event.target.id;
- console.log(userChoice);
- })
-})
-
-function checkAnswer() {
-
-
-}
 
 //List of trivia questions
 let questions = [{
