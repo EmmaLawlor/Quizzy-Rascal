@@ -83,9 +83,10 @@ function playQuiz() {
     })
   })
 
+  //Get current score and increments by 1 each time the function is called
   function incrementScore(){
-    let currentScore = parseInt(document.getElementById("score-area").innerText);
-    document.getElementById("score-area").innerText = ++currentScore;
+    let currentScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++currentScore;
   }
 
 }
