@@ -3,18 +3,18 @@ let modal = document.getElementById("rulesModal");
 
 let rulesBtn = document.getElementById("rules-btn");
 
-let close = document.getElementsByClassName("close")[0];
+let closeBtn = document.getElementsByClassName("close")[0];
 
 if (rulesBtn) {
   rulesBtn.addEventListener('click', function () {
     modal.style.display = "block";
-  })
+  });
 }
 
-if (close) {
-  close.onclick = function () {
+if (closeBtn) {
+  closeBtn.onclick = function () {
     modal.style.display = "none";
-  }
+  };
 }
 
 //Waits for page content to load, then runs quiz game
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   runQuiz();
 
-})
+});
 
 /**
  * Displays new question
@@ -35,9 +35,9 @@ function runQuiz() {
 
   if (questionTally < 10) {
     playQuiz();
+    questionTally++;
+    nextQuestion();
   }
-
-  questionTally++;
 
 }
 
@@ -58,10 +58,10 @@ function playQuiz() {
 
   //Sets question and answers text to their correct containers 
   questionBox.innerHTML = questions[questionNum].question;
-  answerA.innerHTML = questions[questionNum].answers['a'];
-  answerB.innerHTML = questions[questionNum].answers['b'];
-  answerC.innerHTML = questions[questionNum].answers['c'];
-  answerD.innerHTML = questions[questionNum].answers['d'];
+  answerA.innerHTML = questions[questionNum].answers.a;
+  answerB.innerHTML = questions[questionNum].answers.b;
+  answerC.innerHTML = questions[questionNum].answers.c;
+  answerD.innerHTML = questions[questionNum].answers.d;
 
   //Identifies the id of the answer button seleted by the user
   let answers = document.getElementsByClassName('answer-btn');
@@ -80,13 +80,20 @@ function playQuiz() {
         this.classList.add("incorrect");
       }
 
-    })
-  })
+    });
+  });
 
-  //Get current score and increments by 1 each time the function is called
-  function incrementScore(){
+  /**
+   * Get current score and increments by 1 each time the function is called
+   * Code adapted from CI love maths walktrhough project
+   */ 
+  function incrementScore() {
     let currentScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++currentScore;
+  }
+
+  function nextQuestion() {
+
   }
 
 }
@@ -313,4 +320,4 @@ let questions = [{
     },
     correctAnswer: "d"
   }
-]
+];

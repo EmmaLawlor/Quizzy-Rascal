@@ -79,6 +79,8 @@ Quizzy Rascal is an interactive music trivia quiz. Desgined to provide entertain
 ### Acknowledgements
 - Favicon created using (favicon.io)[https://favicon.io/favicon-converter/]
 - Nova Round font imported from (Google Fonts)[https://fonts.google.com/specimen/Nova+Round?query=round#glyphs]
-- Help sought from W3Schools in creating modal to contain quiz rules. Code adapted and modified from (here)[https://www.w3schools.com/howto/howto_css_modals.asp]
-### Thank You 
+- Help sought from W3Schools in creating modal to contain quiz rules. Code adapted and modified from (here)[https://www.w3schools.com/howto/howto_css_modals.asp] 
 - Help in applying click transform effect to buttons from [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-add-a-pressed-effect-on-button-click-in-css/)
+- Code for incrementing user score was adapted from the Code Institute Love Maths walkthrough project
+
+### Thank You
