@@ -22,10 +22,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   runQuiz();
 
-  let answerBtn = document.getElementsByClassName('answer-btn');
-
-  answerBtn.addEventListener('click', checkAnswer());
-
 })
 
 /**
@@ -38,7 +34,7 @@ function runQuiz() {
   let questionTally = 0;
 
   if (questionTally < 10) {
-    displayQuestion();
+    playQuiz();
   }
 
   questionTally++;
@@ -51,7 +47,7 @@ function runQuiz() {
  * in their respective containers
  */
 
-function displayQuestion() {
+function playQuiz() {
 
   let questionBox = document.getElementById('question-container');
   let answerA = document.getElementById('a');
@@ -78,6 +74,7 @@ function displayQuestion() {
       if (userChoice === questions[questionNum].correctAnswer) {
         console.log("Correct!");
         this.classList.add("correct");
+        incrementScore();
       } else {
         console.log("Incorrect");
         this.classList.add("incorrect");
@@ -85,6 +82,11 @@ function displayQuestion() {
 
     })
   })
+
+  function incrementScore(){
+    let currentScore = parseInt(document.getElementById("score-area").innerText);
+    document.getElementById("score-area").innerText = ++currentScore;
+  }
 
 }
 
