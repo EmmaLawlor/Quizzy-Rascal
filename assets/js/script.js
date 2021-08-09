@@ -60,18 +60,21 @@ function displayQuestion() {
   let answerD = document.getElementById('d');
   let questionNum = Math.floor(Math.random() * questions.length);
 
+  //Sets question and answers text to their correct containers 
   questionBox.innerHTML = questions[questionNum].question;
   answerA.innerHTML = questions[questionNum].answers['a'];
   answerB.innerHTML = questions[questionNum].answers['b'];
   answerC.innerHTML = questions[questionNum].answers['c'];
   answerD.innerHTML = questions[questionNum].answers['d'];
 
+  //Identifies the id of the answer button seleted by the user
   let answers = document.getElementsByClassName('answer-btn');
   [...answers].forEach(answer => {
     answer.addEventListener('click', function (event) {
       let userChoice = event.target.id;
       console.log(userChoice);
 
+      //Determines if the button selected by the user is correct by comparing with correct answer from array
       if (userChoice === questions[questionNum].correctAnswer) {
         console.log("Correct!");
       } else {
