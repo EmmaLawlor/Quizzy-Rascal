@@ -40,13 +40,37 @@ function displayQuestion() {
     answerD.classList.remove('incorrect');
     answerD.classList.remove('correct');
 
-    //Sets question and answers text to their correct containers 
     question.innerText = questions[questionNum].question;
     answerA.innerText = questions[questionNum].answers.a;
     answerB.innerText = questions[questionNum].answers.b;
     answerC.innerText = questions[questionNum].answers.c;
     answerD.innerText = questions[questionNum].answers.d;
 }
+
+/**
+ * Checks user's chosen answer against the correct answer from question array
+ * Executes when user clicks an answer button
+ */
+function checkAnswer(userChoice) {
+    if (userChoice === questions[questionNum].correctAnswer) {
+        console.log("Correct!");
+        document.getElementById(userChoice).classList.add("correct");
+        incrementScore();
+      } else {
+        console.log("Incorrect");
+        document.getElementById(userChoice).classList.add("correct");
+      }
+}
+
+/**
+ * Get current score and increments by 1 each time the function is called
+ * Code adapted from CI love maths walktrhough project
+ */
+ function incrementScore() {
+    let currentScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++currentScore;
+  
+  }
 
 //List of trivia questions
 let questions = [{
