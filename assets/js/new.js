@@ -8,10 +8,12 @@ const score = document.getElementById('score-area');
 
 const result = document.getElementsByClassName('result-contrainer');
 
-let questionNum
+let questionNum;
+let currentQuestion;
 
 function playQuiz() {
-    questionNum = 0;
+    currentQuestion = 0;
+    questionNum = Math.floor(Math.random() * questions.length);
     displayQuestion();
     score.innertext = 0;
 }
@@ -27,13 +29,12 @@ function displayQuestion() {
     answerD.classList.remove('incorrect');
     answerD.classList.remove('correct');
 
-    for (let i = 0; i < 10; i++) {
-        questionBox.innerHTML = questions[i].question;
-        answerA.innerHTML = questions[i].answers.a;
-        answerB.innerHTML = questions[i].answers.b;
-        answerC.innerHTML = questions[i].answers.c;
-        answerD.innerHTML = questions[i].answers.d;
-    }
+    //Sets question and answers text to their correct containers 
+    question.innerText = questions[questionNum].question;
+    answerA.innerText = questions[questionNum].answers.a;
+    answerB.innerText = questions[questionNum].answers.b;
+    answerC.innerText = questions[questionNum].answers.c;
+    answerD.innerText = questions[questionNum].answers.d;
 }
 
 let questions = [{
@@ -138,3 +139,5 @@ let questions = [{
     },
 
 ]
+
+playQuiz();
