@@ -1,3 +1,4 @@
+//Get all HTML elements for use in functions 
 const question = document.getElementById('question-container');
 const answerA = document.getElementById('a');
 const answerB = document.getElementById('b');
@@ -11,6 +12,12 @@ const result = document.getElementsByClassName('result-contrainer');
 let questionNum;
 let currentQuestion;
 
+/**
+ * Initialises the quiz game
+ * Generates a random number to select a quiestion from the questions array
+ * Calls displayQuestion function
+ * Sets current question and current score to 0 at start of quiz
+ */
 function playQuiz() {
     currentQuestion = 0;
     questionNum = Math.floor(Math.random() * questions.length);
@@ -18,6 +25,10 @@ function playQuiz() {
     score.innertext = 0;
 }
 
+/**
+ * Removes correct or incorrect class from answer buttons after previous question
+ * Displays question and answer choices in their respective containers  
+ */
 function displayQuestion() {
 
     answerA.classList.remove('incorrect');
