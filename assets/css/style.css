@@ -30,6 +30,11 @@ h2 {
     text-shadow: 1px 1px #ffff00;
 }
 
+#home {
+    font-size: 2rem;
+    color: #ffff00;
+}
+
 /*Container for play and rules buttons*/
 .container {
     display: grid;

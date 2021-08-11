@@ -1,22 +1,3 @@
-// Rules Modal
-let modal = document.getElementById("rulesModal");
-
-let rulesBtn = document.getElementById("rules-btn");
-
-let closeBtn = document.getElementsByClassName("close")[0];
-
-if (rulesBtn) {
-  rulesBtn.addEventListener('click', function () {
-    modal.style.display = "block";
-  });
-}
-
-if (closeBtn) {
-  closeBtn.onclick = function () {
-    modal.style.display = "none";
-  };
-}
-
 //Waits for page content to load, then runs quiz game
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -31,13 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function runQuiz() {
 
-  let questionTally = 0;
-
-  if (questionTally < 10) {
-    playQuiz();
-    questionTally++;
-    console.log(questionTally);
-  }
+ playQuiz();
 
 }
 
@@ -83,6 +58,8 @@ function playQuiz() {
     });
   });
 
+  getNewQuestion();
+
 };
 
 /**
@@ -92,7 +69,10 @@ function playQuiz() {
 function incrementScore() {
   let currentScore = parseInt(document.getElementById("score").innerText);
   document.getElementById("score").innerText = ++currentScore;
+
 }
+
+
 
 //List of trivia questions
 let questions = [{
