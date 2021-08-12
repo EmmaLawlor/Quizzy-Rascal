@@ -19,8 +19,7 @@ let currentQuestion;
  * Sets current question and current score to 0 at start of quiz
  */
 function playQuiz() {
-    currentQuestion = 0;
-    questionNum = Math.floor(Math.random() * questions.length);
+    currentQuestion = 1;
     displayQuestion();
     score.innertext = 0;
 }
@@ -39,6 +38,8 @@ function displayQuestion() {
     answerC.classList.remove('correct');
     answerD.classList.remove('incorrect');
     answerD.classList.remove('correct');
+
+    questionNum = Math.floor(Math.random() * questions.length);
 
     question.innerText = questions[questionNum].question;
     answerA.innerText = questions[questionNum].answers.a;
@@ -60,18 +61,12 @@ function checkAnswer(userChoice) {
         console.log("Incorrect");
         document.getElementById(userChoice).classList.add("incorrect");
     }
+    currentQuestion++; 
 
-    currentQuestion++;
-
-    //make sure we have enough questions and don't exceed 10
-    if (questions.length > currentQuestion + 1 && currentQuestion + 1 < 11){
+    if (currentQuestion < 10) {
         setTimeout(function () {
             displayQuestion();
-        }, 1000);
-    }else{
-        //game is over, show message and button to play
-        document.querySelector('.result-container').classList.remove('hide');
-        
+        }, 2000);
     }
 }
 
