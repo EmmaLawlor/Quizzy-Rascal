@@ -198,3 +198,30 @@ h2 {
     border: 2px solid #0000ff;
     border-radius: 5px;
 }
+
+.result-container {
+    display: grid;
+    justify-content: center;
+    margin: 50px auto;
+    width: 60%;
+    background-color: #ffff00;
+    border: 3px solid #0000ff;
+    border-radius: 5px;
+}
+
+.result-container h3 {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.result-container p {
+    font-size: 1.5rem;
+    padding: 20px;
+    font-weight: 600;
+}
+
+#play-again-btn {
+    background-color: #0000ff;
+    color: #ffff00;
+    margin-bottom: 20px;
+}
