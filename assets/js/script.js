@@ -7,9 +7,7 @@ const answerB = document.getElementById('b');
 const answerC = document.getElementById('c');
 const answerD = document.getElementById('d');
 
-const score = document.getElementById('score-area');
-
-const resultArea = document.getElementsByClassName('result-container');
+const result = document.getElementById('result');
 
 let questionNum;
 let currentQuestion;
@@ -65,12 +63,16 @@ function checkAnswer(userChoice) {
     }
     currentQuestion++; 
 
+    /**
+     * Displays new question after a short delay, up to a max 10 questions
+     * Ends quiz after 10 questions, takes user to results page
+     **/
     if (currentQuestion < 10) {
         setTimeout(function () {
             displayQuestion();
         }, 800);
     } else if (currentQuestion => 10) {
-        location.href = 'result.html'
+        location.href = 'result.html';
     }
 }
 
@@ -82,14 +84,10 @@ function checkAnswer(userChoice) {
 function incrementScore() {
     let currentScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++currentScore;
-
+    
 }
 
-function displayResult() {
-    let result = document.getElementById('result');
-    result.innerText = currentScore;
-
-}
+//To Do; save currentscore to local storage and use this to display on result page
 
 //List of trivia questions
 let questions = [{
