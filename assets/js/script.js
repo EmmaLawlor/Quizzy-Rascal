@@ -70,8 +70,6 @@ function checkAnswer(userChoice) {
             displayQuestion();
         }, 800);
     } else if (currentQuestion => 10) {
-        document.querySelector(".result-container").style.removeProperty("display");
-        quizBox.style.display = "none";
         location.href = 'result.html'
     }
 }
