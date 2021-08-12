@@ -19,7 +19,8 @@ let currentQuestion;
  * Sets current question and current score to 0 at start of quiz
  */
 function playQuiz() {
-    currentQuestion = 1;
+    questionNum = questions.sort(function(a, b){return 0.5 - Math.random()});
+    currentQuestion = 0;
     displayQuestion();
     score.innertext = 0;
 }
@@ -66,7 +67,7 @@ function checkAnswer(userChoice) {
     if (currentQuestion < 10) {
         setTimeout(function () {
             displayQuestion();
-        }, 2000);
+        }, 800);
     }
 }
 
