@@ -46,11 +46,12 @@ https://emmalawlor.github.io/quizzy-rascal/
 - The wireframes for this project were created using (Balsamiq)[https://balsamiq.com/]
 - The Home, Quiz and Results pages were drawn up in mobile, desktop and tablet views. 
 - The wireframes helped to map out the basic structure of the site while building the project, however some style and layout changes were made throughout the development process. 
-    - Desktop View: Home, Quix and Result Pages
+    - Desktop View: Home, Quiz and Result Pages
 
-    - Mobile View: Home, Quix and Result Pages
+    - Mobile View: Home, Quiz and Result Pages
 
-    - Tablet View: Home, Quix and Result Pages
+    - Tablet View: Home, Quiz and Result Pages
+    
 
 ### Implemented Features
 
