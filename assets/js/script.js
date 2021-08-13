@@ -83,7 +83,6 @@ function checkAnswer(userChoice) {
 
 
 const score = document.getElementById('score');
-localStorage.setItem('userResult', score.innerText);
 
 /**
  * Get current score and increments by 1 each time the function is called
@@ -93,13 +92,7 @@ function incrementScore() {
 
     let currentScore = parseInt(document.getElementById("score").innerText);
     score.innerText = ++currentScore;
-
-}
-
-//To do: fix code to store user score and display on result page
-function displayUserResult(userScore) {
-    let result = document.getElementById('result');
-    result.innerText = userScore;
+    localStorage.setItem('userResult', score.innerText);
 
 }
 

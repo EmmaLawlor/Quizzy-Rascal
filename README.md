@@ -23,7 +23,7 @@ https://emmalawlor.github.io/quizzy-rascal/
 - Display user's current score throughout the running of the quiz.
 
 #### As the Site User I Want to:
-- Play and fun and easy to use quiz to test musix knowledge.
+- Play a fun and easy to use quiz to test music knowledge.
 - Progress easily and intuitively through the quiz, with the option of returning to the homescreen at any point.
 - Be informed whether chosen answer was correct or incorrect when selected.
 - Be aware of current score while progressing through the quiz. 
@@ -37,6 +37,7 @@ https://emmalawlor.github.io/quizzy-rascal/
 - Images
 
     - [Background Image](https://github.com/EmmaLawlor/quizzy-rascal/blob/main/assets/images/music-notes.jpg0) of black and white music notes chosen as it is in keeping with the musical theme of the quiz. The same image was used across all page of the site to maintain a sense of familiarity and to keep the overall layout simple and content-focused. 
+
 ![Background Image](documentation/background-image.jpg)
 
 - Transitions/Animations
