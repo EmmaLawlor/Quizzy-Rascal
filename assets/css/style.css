@@ -42,6 +42,7 @@ h2 {
     min-width: 320px;
     justify-items: center;
     align-items: center;
+    margin: auto;
 }
 
 /*Button styling*/
@@ -145,6 +146,12 @@ h2 {
     border: 2px solid #0000ff;
     border-radius: 5px;
 }
+
+
+#quiz-area {
+    max-width: 780px;
+}
+
 
 #answers-container {
     display: grid;

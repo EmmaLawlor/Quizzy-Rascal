@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 //Get all HTML elements for use in functions 
 const quizBox = document.getElementById('quiz-area');
 
@@ -61,7 +63,7 @@ function checkAnswer(userChoice) {
         console.log("Incorrect");
         document.getElementById(userChoice).classList.add("incorrect");
     }
-    currentQuestion++; 
+    currentQuestion++;
 
     /**
      * Displays new question after a short delay, up to a max 10 questions
@@ -73,28 +75,30 @@ function checkAnswer(userChoice) {
         }, 800);
     } else if (currentQuestion => 10) {
         setTimeout(function () {
-            location.href = 'result.html'; 
+            location.href = 'result.html';
         }, 800);
         displayUserResult();
     }
 }
 
 
+const score = document.getElementById('score');
+localStorage.setItem('userResult', score.innerText);
+
 /**
  * Get current score and increments by 1 each time the function is called
  * Code adapted from CI love maths walktrhough project
  */
 function incrementScore() {
-    let currentScore = parseInt(document.getElementById("score").innerText);
-    document.getElementById("score").innerText = ++currentScore;
 
-    let userScore = document.getElementById('score').innerText;
-    
+    let currentScore = parseInt(document.getElementById("score").innerText);
+    score.innerText = ++currentScore;
+
 }
 
 //To do: fix code to store user score and display on result page
 function displayUserResult(userScore) {
-    let result  = document.getElementById('result');
+    let result = document.getElementById('result');
     result.innerText = userScore;
 
 }

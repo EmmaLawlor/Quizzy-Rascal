@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // Rules Modal
 let modal = document.getElementById("rulesModal");
 
