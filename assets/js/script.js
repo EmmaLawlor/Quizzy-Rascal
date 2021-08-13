@@ -72,7 +72,10 @@ function checkAnswer(userChoice) {
             displayQuestion();
         }, 800);
     } else if (currentQuestion => 10) {
-        location.href = 'result.html';
+        setTimeout(function () {
+            location.href = 'result.html'; 
+        }, 800);
+        displayUserResult();
     }
 }
 
@@ -87,7 +90,13 @@ function incrementScore() {
     
 }
 
-//To Do; save currentscore to local storage and use this to display on result page
+//To do: fix code to store user score and display on result page
+function displayUserResult() {
+    localStorage.setItem('userResult', currentScore);
+    return userResult;
+
+    result.innerText = userResult;
+}
 
 //List of trivia questions
 let questions = [{
