@@ -77,13 +77,23 @@ https://emmalawlor.github.io/quizzy-rascal/
 
 ## Deployment
 
+The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor/quizzy-rascal) to GitHub Pages using the following steps: 
+
+1. From the Quizzy Rascal repository, select the Settings tab.
 ![image](https://user-images.githubusercontent.com/84344402/129406799-46c24512-e424-48e3-89b3-5b9a2e3a85c7.png)
+
+2. Select the Pages sub-menu on the left of the page.
+
 ![image](https://user-images.githubusercontent.com/84344402/129406863-5eac3c50-1ab5-4b2a-a2eb-a2b4c2f1c53f.png)
+
+3. Under Source, select the main branch and hit save.
 ![image](https://user-images.githubusercontent.com/84344402/129406956-65bd0e3f-ac1b-45f6-a735-1f6878483654.png)
+
+(https://emmalawlor.github.io/quizzy-rascal/).
 ![image](https://user-images.githubusercontent.com/84344402/129406984-6886c55d-9ea1-4169-a6c1-f590178c32d7.png)
+
+4. Upon saving, the page refreshes to confirm deployment of site and provides link to [live site]
 ![image](https://user-images.githubusercontent.com/84344402/129407005-9dad2c38-1f07-46ab-a85b-ccb9e86856fb.png)
-
-
 
 ## Credits
 
