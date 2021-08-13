@@ -75,7 +75,6 @@ function checkAnswer(userChoice) {
         setTimeout(function () {
             location.href = 'result.html'; 
         }, 800);
-        localStorage.setItem('userResult', currentScore);
         displayUserResult();
     }
 }
@@ -88,13 +87,16 @@ function checkAnswer(userChoice) {
 function incrementScore() {
     let currentScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++currentScore;
+
+    let userScore = document.getElementById('score').innerText;
     
 }
 
 //To do: fix code to store user score and display on result page
-function displayUserResult() {
+function displayUserResult(userScore) {
+    let result  = document.getElementById('result');
+    result.innerText = userScore;
 
-    result.innerText = localStorage.getItem('userResult');
 }
 
 //List of trivia questions
