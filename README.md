@@ -8,6 +8,9 @@ Quizzy Rascal is an interactive music trivia quiz. Desgined to provide entertain
 
 The name was chosen as a play on the stage name of English rapper Dizzee Rascal, helping to set a fun and lighthearted tone. 
 
+## Deployed Site
+https://emmalawlor.github.io/quizzy-rascal/
+
 ## Table of Contents
 
 ## UX
@@ -73,6 +76,14 @@ The name was chosen as a play on the stage name of English rapper Dizzee Rascal,
 ### Screen Reader
 
 ## Deployment
+
+![image](https://user-images.githubusercontent.com/84344402/129406799-46c24512-e424-48e3-89b3-5b9a2e3a85c7.png)
+![image](https://user-images.githubusercontent.com/84344402/129406863-5eac3c50-1ab5-4b2a-a2eb-a2b4c2f1c53f.png)
+![image](https://user-images.githubusercontent.com/84344402/129406956-65bd0e3f-ac1b-45f6-a735-1f6878483654.png)
+![image](https://user-images.githubusercontent.com/84344402/129406984-6886c55d-9ea1-4169-a6c1-f590178c32d7.png)
+![image](https://user-images.githubusercontent.com/84344402/129407005-9dad2c38-1f07-46ab-a85b-ccb9e86856fb.png)
+
+
 
 ## Credits
 
