@@ -232,3 +232,34 @@ h2 {
     color: #ffff00;
     margin-bottom: 20px;
 }
+
+/*Media Queries*/
+
+/* Larger Device Styles tablets and larger */
+@media screen and (min-width: 778px) {
+
+    /* make containers 100% width on desktop */
+    #quiz-area,
+    #result-container {
+        max-width: 1200px;
+        width: 90%;
+    }
+
+    #question-container,
+    #answers-container {
+        max-width: 1200px;
+        min-width: 90%;
+        margin: 1.5rem;
+        width: 90%;
+    }
+}
+
+/*Medium screens and smaller*/
+@media screen and (max-width: 620px) {
+    #answers-container {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        margin: auto;
+    }
+}
