@@ -13,6 +13,7 @@ const result = document.getElementById('result');
 
 let questionNum;
 let currentQuestion;
+let questionsAsked = [];
 
 /**
  * Initialises the quiz game
@@ -25,6 +26,16 @@ function playQuiz() {
     displayQuestion();
     score.innertext = 0;
 }
+
+/**
+ * The getRandomQuestion() funtion returns a random question from the list
+ * of questions to ask
+ * @returns a question index 
+ */
+ function getRandomQuestion(){
+    return  Math.floor(Math.random() * questions.length);
+}
+
 
 /**
  * Removes correct or incorrect class from answer buttons after previous question
@@ -41,7 +52,13 @@ function displayQuestion() {
     answerD.classList.remove('incorrect');
     answerD.classList.remove('correct');
 
-    questionNum = Math.floor(Math.random() * questions.length);
+    questionNum = getRandomQuestion();
+
+    while (questionsAsked.includes(questionNum)){
+        questionNum = Math.floor(Math.random() * questions.length);
+    }
+    
+    questionsAsked.push(questionNum);
 
     question.innerText = questions[questionNum].question;
     answerA.innerText = questions[questionNum].answers.a;
