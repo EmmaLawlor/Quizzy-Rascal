@@ -118,6 +118,8 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 ### Media
 - [Background Image](https://github.com/EmmaLawlor/quizzy-rascal/blob/main/assets/images/music-notes.jpg) of black and white music notes, used on all pages taken from [pxhere.com](https://pxhere.com/en/photo/1043482)
 
+- Background music is track "Online Deal", taken from [playonloop](https://www.playonloop.com/freebies-download/)
+
 ### Content
 - Trivia content for quiz questions take from [Radio Times](https://www.radiotimes.com/quizzes/pub-quiz-music-round/) and [Thought Catalog](https://thoughtcatalog.com/samantha-newman/2020/04/music-trivia-questions/)
 
