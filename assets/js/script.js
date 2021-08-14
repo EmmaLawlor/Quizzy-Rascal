@@ -113,6 +113,31 @@ function incrementScore() {
 
 }
 
+/**
+ * Music file setup, use 50% volume so you don’t blast the user, start with it off.
+ */
+ let bgmusic = document.getElementById('bgMusic');
+ bgmusic.volume = 0.5;
+ bgmusic.loop = true;
+ let soundOn = false;
+ 
+ /**
+  * Toggle on and off background music
+  */
+ function musicControl() {
+     soundOn = !soundOn;
+     if (soundOn) {
+         bgmusic.play();
+         document.getElementById("music-on").classList.add('hide');
+         document.getElementById("music-off").classList.remove('hide');
+     } else {
+         bgmusic.pause();
+         document.getElementById("music-off").classList.add('hide');
+         document.getElementById("music-on").classList.remove('hide');
+     }
+ }
+ 
+
 //List of trivia questions
 let questions = [{
         question: 'Which rock band was founded by Trent Reznor in 1988?',
