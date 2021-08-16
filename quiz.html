@@ -13,11 +13,14 @@
 
 <body>
 
+    <!-- Header containing home page link, audio control and quiz score container -->
     <div class="header">
+
+        <!-- House icon for home page link -->
         <a href="index.html"><i id="home" class="fas fa-home"></i></a>
+
         <!-- Volume controls -->
         <div class="volume-controller">
-
             <a class="circle" onClick="musicControl();" aria-label="Turn on background music" id="music-on">
                 <i class="fas fa-volume-mute"></i>
             </a>
@@ -25,45 +28,50 @@
                 <i class="fas fa-volume-up"></i>
             </a>
         </div>
+
+        <!-- Score container -->
         <div id="score-area">Score:<span id="score">0</span>/10</div>
     </div>
 
-        <div class="title">
-            <h1>Quizzy Rascal</h1>
-            <h2>The ultimate music trivia quiz</h2>
-        </div>
+    <!-- Quiz title and sub-title -->
+    <div class="title">
+        <h1>Quizzy Rascal</h1>
+        <h2>The ultimate music trivia quiz</h2>
+    </div>
 
-        <div class="container">
-            <div id="quiz-area">
-                <div id="question-container">
-                    <p>Question</p>
-                </div>
-                <div id="answers-container">
-                    <button class="answer-btn btn" id="a" onclick="checkAnswer('a')">Answer A</button>
-                    <button class="answer-btn btn" id="b" onclick="checkAnswer('b')">Answer B</button>
-                    <button class="answer-btn btn" id="c" onclick="checkAnswer('c')">Answer C</button>
-                    <button class="answer-btn btn" id="d" onclick="checkAnswer('d')">Answer D</button>
-
-                </div>
+    <!-- Main quiz area -->
+    <div class="container">
+        <div id="quiz-area">
+            <!-- Quetion Box -->
+            <div id="question-container">
+                <p>Question</p>
+            </div>
+            <!-- Answer buttons -->
+            <div id="answers-container">
+                <button class="answer-btn btn" id="a" onclick="checkAnswer('a')">Answer A</button>
+                <button class="answer-btn btn" id="b" onclick="checkAnswer('b')">Answer B</button>
+                <button class="answer-btn btn" id="c" onclick="checkAnswer('c')">Answer C</button>
+                <button class="answer-btn btn" id="d" onclick="checkAnswer('d')">Answer D</button>
             </div>
         </div>
+    </div>
 
-        <div class="result-container" style="display:none">
-            <h3>Game Over!!</h3>
-            <p>You scored <span id="result"></span></p>
-            <a href="quiz.html"><button id="play-again-btn" class="btn">Play Again</button></a>
-        </div>
+    <!-- Results container, displayed at end of quiz only -->
+    <div class="result-container" style="display:none">
+        <h3>Game Over!!</h3>
+        <p>You scored <span id="result"></span></p>
+        <a href="quiz.html"><button id="play-again-btn" class="btn">Play Again</button></a>
+    </div>
 
-        <!-- AUDIO FILES -->
-        <!-- downloaded Free Bold Statement Music from playonloop.com https://www.playonloop.com/2018-music-loops/bold-statement/ -->
-        <audio id="bgMusic" src="assets/audio/bg-music.wav"></audio>
+    <!-- Audio file for background music, downloaded from https://www.playonloop.com/freebies-download/ -->
+    <audio id="bgMusic" src="assets/audio/bg-music.wav"></audio>
 
-        <!-- font awesome js to have icons for volume control-->
-        <script src="https://kit.fontawesome.com/d79f15ae3d.js" crossorigin="anonymous"></script>
-
+    <!-- Font Awesome script for house icon and audio control icons -->
+    <script src="https://kit.fontawesome.com/d79f15ae3d.js" crossorigin="anonymous"></script>
 
 
-        <script src="assets/js/script.js"></script>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
