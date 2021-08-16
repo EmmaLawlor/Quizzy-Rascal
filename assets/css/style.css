@@ -30,9 +30,11 @@ h2 {
     text-shadow: 1px 1px #ffff00;
 }
 
+/*House icon for home page link*/
 #home {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #ffff00;
+    margin: 4px 2px;
 }
 
 /*Container for play and rules buttons*/
@@ -237,16 +239,16 @@ h2 {
 .circle{
     height: 36px;
     width: 36px;
-    border: 1px solid deeppink;
-    background: white;
-    color: deeppink;
+    border: 2px solid #ffff00;
+    background: #00f;
+    color: #ffff00;
     border-radius: 50%;
     text-align: center;
     display: block;
     margin: 12px auto 0;
  }
  .circle i{
-    font-size: 25px;
+    font-size: 1.6rem;
     margin: 4px 2px;
  
  }
