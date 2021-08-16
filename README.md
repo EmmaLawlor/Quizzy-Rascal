@@ -82,6 +82,9 @@ https://emmalawlor.github.io/quizzy-rascal/
 ### Defects
 
 #### Defects of Note
+- Any defects which occurred during development were tracked using the GitHub Issues section of this repository, which can be found [here](https://github.com/EmmaLawlor/quizzy-rascal/issues).
+- Details of each bug were noted as they were discovered, with screenshots taken to demonstrate the problem where possible. 
+- The GitHub Issues section allowed for close out of defects as they were rectified, again using screenshots to show the solution when possible. 
 
 #### Outstanding Defects
 
@@ -121,6 +124,7 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 - Background music is track "Online Deal", taken from [playonloop](https://www.playonloop.com/freebies-download/)
 
 - House icon for home page link and audio control icons used in quiz pager header all taken from [Font Awesome](https://fontawesome.com/)
+
 ![image](https://user-images.githubusercontent.com/84344402/129630296-236f52a2-fb62-406d-97cc-a0bb512b869b.png)
 ![image](https://user-images.githubusercontent.com/84344402/129630340-74afbddd-315a-4142-84c6-e2cc6f83da98.png)
 ![image](https://user-images.githubusercontent.com/84344402/129630453-651ab19a-b470-45f5-9007-ee11a1b217b3.png)
