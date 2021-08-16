@@ -120,6 +120,9 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 
 - Background music is track "Online Deal", taken from [playonloop](https://www.playonloop.com/freebies-download/)
 
+- House icon for home page link and audio control icons used in quiz pager header all taken from [Font Awesome](https://fontawesome.com/)
+
+
 ### Content
 - Trivia content for quiz questions take from [Radio Times](https://www.radiotimes.com/quizzes/pub-quiz-music-round/) and [Thought Catalog](https://thoughtcatalog.com/samantha-newman/2020/04/music-trivia-questions/)
 
