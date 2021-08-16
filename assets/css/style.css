@@ -31,13 +31,6 @@ h2 {
     text-shadow: 1px 1px #ffff00;
 }
 
-/*House icon for home page link*/
-#home {
-    font-size: 1.6rem;
-    color: #ffff00;
-    margin: 4px 2px;
-}
-
 /*Container for play and rules buttons*/
 .container {
     display: grid;
@@ -138,6 +131,31 @@ h2 {
     cursor: pointer;
 }
 
+/*Header for quiz page*/
+.header {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+}
+
+/*House icon for home page link*/
+#home {
+    font-size: 1.6rem;
+    color: #ffff00;
+    margin: 4px 2px;
+}
+
+/*Score container*/
+#score-area {
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: #ffff00;
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid #0000ff;
+    border-radius: 5px;
+}
+
 /*Quiz page styles*/
 #question-container {
     font-size: 2rem;
@@ -195,17 +213,6 @@ h2 {
     color: white;
     box-shadow: none;
     border: 2px solid white;
-    border-radius: 5px;
-}
-
-#score-area {
-    margin: 2rem;
-    font-size: 2rem;
-    text-align: center;
-    background-color: #ffff00;
-    font-weight: bold;
-    padding: 8px;
-    border: 2px solid #0000ff;
     border-radius: 5px;
 }
 
