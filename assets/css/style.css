@@ -15,6 +15,10 @@ body {
     color: #0000ff;
 }
 
+#home-page-heading {
+    margin-top: 20px;
+}
+
 /*Quiz name heading and sub-heading*/
 h1 {
     margin-top: 0;
@@ -220,11 +224,12 @@ h2 {
     border-radius: 5px;
 }
 
+/*Result Page styles*/
 .result-container {
     display: grid;
     justify-content: center;
     margin: 50px auto;
-    width: 60%;
+    width: 80%;
     background-color: #ffff00;
     border: 3px solid #0000ff;
     border-radius: 5px;
@@ -233,12 +238,17 @@ h2 {
 .result-container h3 {
     font-size: 2rem;
     padding: 10px;
+    justify-self: center;
 }
 
 .result-container p {
     font-size: 1.5rem;
     padding: 20px;
     font-weight: 600;
+}
+
+.result-container a{
+    justify-self: center;
 }
 
 #play-again-btn {
