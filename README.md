@@ -139,6 +139,7 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 - Help in applying click transform effect to buttons from [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-add-a-pressed-effect-on-button-click-in-css/)
 - Code for incrementing user score was adapted from the Code Institute Love Maths walkthrough project
 - Help in centering the modal on the screen was sought from [Stack Overflow](https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen/39636961)
+- Help in fixing size of background image from [css-tricks.com](https://css-tricks.com/perfect-full-page-background-image/)
 
 ### Thank You
 - Thanks to Code Institute cohort facilitator Kasia for providing advice and learning resources as well as a listening ear, whenever needed. 

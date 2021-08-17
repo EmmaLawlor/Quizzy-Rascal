@@ -98,6 +98,8 @@ function checkAnswer(userChoice) {
         }, 800);
         displayUserResult();
     }
+
+
 }
 
 /**

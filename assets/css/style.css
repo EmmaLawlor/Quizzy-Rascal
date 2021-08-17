@@ -7,8 +7,7 @@
 
 /*Main body styles and background*/
 body {
-    background-image: url('../images/music-notes.jpg');
-    background-repeat: no-repeat;
+    background: url('../images/music-notes.jpg') no-repeat center center fixed;
     background-size: cover;
     background-color: #ccc;
     font-family: 'Nova Round', cursive;
