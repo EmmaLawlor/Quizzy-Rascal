@@ -138,5 +138,9 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 - Help sought from W3Schools in creating modal to contain quiz rules. Code adapted and modified from (here)[https://www.w3schools.com/howto/howto_css_modals.asp] 
 - Help in applying click transform effect to buttons from [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-add-a-pressed-effect-on-button-click-in-css/)
 - Code for incrementing user score was adapted from the Code Institute Love Maths walkthrough project
+- Help in centering the modal on the screen was sought from [Stack Overflow](https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen/39636961)
 
 ### Thank You
+- Thanks to Code Institute cohort facilitator Kasia for providing advice and learning resources as well as a listening ear, whenever needed. 
+- Thank you to my peers of Code Institue's slack channel for their feedback on tihs project when submitted for peer code review. 
+- A huge thank you to my mentor Malia Havlicek for her wisdom, advice and invaluable experience when providing support throughout project development. 
