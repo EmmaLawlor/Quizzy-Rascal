@@ -113,7 +113,7 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 (https://emmalawlor.github.io/quizzy-rascal/).
 ![image](https://user-images.githubusercontent.com/84344402/129406984-6886c55d-9ea1-4169-a6c1-f590178c32d7.png)
 
-4. Upon saving, the page refreshes to confirm deployment of site and provides link to [live site]
+4. Upon saving, the page refreshes to confirm deployment of site and provides link to [live site](https://emmalawlor.github.io/quizzy-rascal/)
 ![image](https://user-images.githubusercontent.com/84344402/129407005-9dad2c38-1f07-46ab-a85b-ccb9e86856fb.png)
 
 ## Credits
