@@ -110,7 +110,6 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 3. Under Source, select the main branch and hit save.
 ![image](https://user-images.githubusercontent.com/84344402/129406956-65bd0e3f-ac1b-45f6-a735-1f6878483654.png)
 
-(https://emmalawlor.github.io/quizzy-rascal/).
 ![image](https://user-images.githubusercontent.com/84344402/129406984-6886c55d-9ea1-4169-a6c1-f590178c32d7.png)
 
 4. Upon saving, the page refreshes to confirm deployment of site and provides link to [live site](https://emmalawlor.github.io/quizzy-rascal/)
