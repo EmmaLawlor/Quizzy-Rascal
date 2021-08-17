@@ -173,11 +173,9 @@ h2 {
     border-radius: 5px;
 }
 
-
 #quiz-area {
     max-width: 780px;
 }
-
 
 #answers-container {
     display: grid;
