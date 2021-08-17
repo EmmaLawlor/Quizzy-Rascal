@@ -142,5 +142,5 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 
 ### Thank You
 - Thanks to Code Institute cohort facilitator Kasia for providing advice and learning resources as well as a listening ear, whenever needed. 
-- Thank you to my peers of Code Institue's slack channel for their feedback on tihs project when submitted for peer code review. 
+- Thank you to my peers on Code Institue's slack channel for their feedback on this project when submitted for peer code review. 
 - A huge thank you to my mentor Malia Havlicek for her wisdom, advice and invaluable experience when providing support throughout project development. 

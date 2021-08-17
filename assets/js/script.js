@@ -32,14 +32,16 @@ function playQuiz() {
  * of questions to ask
  * @returns a question index 
  */
- function getRandomQuestion(){
-    return  Math.floor(Math.random() * questions.length);
+function getRandomQuestion() {
+    return Math.floor(Math.random() * questions.length);
 }
-
 
 /**
  * Removes correct or incorrect class from answer buttons after previous question
- * Displays question and answer choices in their respective containers  
+ * Uses getRandomQuestion to generate random number from questions array
+ * Checks that question has not been asked already
+ * Adds question index to questionsAsked array
+ * Displays question and answers in their respective containers 
  */
 function displayQuestion() {
 
@@ -54,10 +56,10 @@ function displayQuestion() {
 
     questionNum = getRandomQuestion();
 
-    while (questionsAsked.includes(questionNum)){
+    while (questionsAsked.includes(questionNum)) {
         questionNum = Math.floor(Math.random() * questions.length);
     }
-    
+
     questionsAsked.push(questionNum);
 
     question.innerText = questions[questionNum].question;
@@ -98,7 +100,10 @@ function checkAnswer(userChoice) {
     }
 }
 
-
+/**
+ * Sets score container to variable score
+ * To be used in incrementScore function
+ */
 const score = document.getElementById('score');
 
 /**
@@ -114,29 +119,30 @@ function incrementScore() {
 }
 
 /**
- * Music file setup, use 50% volume so you don’t blast the user, start with it off.
+ * Sets background music
+ * Starts with music off be default
+ * Sets music to 50% volume
  */
- let bgmusic = document.getElementById('bgMusic');
- bgmusic.volume = 0.5;
- bgmusic.loop = true;
- let soundOn = false;
- 
- /**
-  * Toggle on and off background music
-  */
- function musicControl() {
-     soundOn = !soundOn;
-     if (soundOn) {
-         bgmusic.play();
-         document.getElementById("music-on").classList.add('hide');
-         document.getElementById("music-off").classList.remove('hide');
-     } else {
-         bgmusic.pause();
-         document.getElementById("music-off").classList.add('hide');
-         document.getElementById("music-on").classList.remove('hide');
-     }
- }
- 
+let bgmusic = document.getElementById('bgMusic');
+bgmusic.volume = 0.5;
+bgmusic.loop = true;
+let soundOn = false;
+
+/**
+ * Toggles background music on/off on click of volume icon
+ */
+function musicControl() {
+    soundOn = !soundOn;
+    if (soundOn) {
+        bgmusic.play();
+        document.getElementById("music-on").classList.add('hide');
+        document.getElementById("music-off").classList.remove('hide');
+    } else {
+        bgmusic.pause();
+        document.getElementById("music-off").classList.add('hide');
+        document.getElementById("music-on").classList.remove('hide');
+    }
+}
 
 //List of trivia questions
 let questions = [{
