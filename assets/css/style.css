@@ -23,12 +23,12 @@ h1 {
     margin-top: 0;
     text-align: center;
     letter-spacing: 2px;
-    font-size: 5vw;
+    font-size: 10vw;
     text-shadow: 2px 2px #ffff00;
 }
 
 h2 {
-    font-size: 3vw;
+    font-size: 6.5vw;
     margin-top: 0.2em;
     text-align: center;
     text-shadow: 1px 1px #ffff00;
@@ -163,7 +163,7 @@ h2 {
 
 /*Quiz page styles*/
 #question-container {
-    font-size: 3.2vw;
+    font-size: 4.5vw;
     margin: 0.5rem;
     text-align: center;
     background-color: #ffff00;
@@ -196,7 +196,7 @@ h2 {
     font-weight: bold;
     padding: 15px 10px;
     margin: 5px;
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: 'Nova Round';
     letter-spacing: 2px;
     border: 1px solid #ffff00;
