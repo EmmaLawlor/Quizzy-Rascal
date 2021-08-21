@@ -282,20 +282,20 @@ h2 {
 /* Larger Device Styles tablets and larger */
 @media screen and (min-width: 778px) {
 
-    /* make containers 100% width on desktop */
     #quiz-area,
     #result-container {
         max-width: 1200px;
-        width: 90%;
+        width: 100%;
     }
 
     #question-container,
     #answers-container {
         max-width: 1200px;
-        min-width: 90%;
-        margin: 1.5rem;
-        width: 90%;
+        min-width: 100%;
+        margin: 10px;
+        width: 100%;
     }
+    
 }
 
 /*Medium screens and smaller*/
