@@ -72,12 +72,13 @@ https://emmalawlor.github.io/quizzy-rascal/
 #### HTML
 All html pages of this site were validated using [W3C validator](https://validator.w3.org/)
 
-- The Home page (index.html) returned the following errors
+1 The Home page (index.html) returned the following errors
 ![image](https://user-images.githubusercontent.com/84344402/130333967-e79f0f37-aff4-4638-80aa-0d8a7ee80113.png)
     - This was rectified by removing the button element from both of the links in question, as seen here:
     ![image](https://user-images.githubusercontent.com/84344402/130334266-e42f0e50-e9d4-466a-8d0e-cd3ae2f639a1.png)
 
     - The links were then styled to resemble buttons using CSS, as shown here:
+    
     ![image](https://user-images.githubusercontent.com/84344402/130334276-4fd86152-43e8-44f0-b971-050c5d2f6a63.png)
 
     - After making these adjustments, the Home page passed through the validator without and errors or warnings.
