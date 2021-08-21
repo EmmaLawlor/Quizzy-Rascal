@@ -84,7 +84,20 @@ All html pages of this site were validated using [W3C validator](https://validat
     - After making these adjustments, the Home page passed through the validator without and errors or warnings.
     ![image](https://user-images.githubusercontent.com/84344402/130334309-0a850d53-f0e3-4ad6-95ab-f4f3455363e0.png)
 
+- The quiz page passed through the validator with no errors or warnings.
+![image](https://user-images.githubusercontent.com/84344402/130334484-4dc4555c-f76c-4c49-be97-905fcfbc3769.png)
 
+- The result page retured the following error:
+![image](https://user-images.githubusercontent.com/84344402/130334510-f39a9f75-7760-4135-8dab-f69a6fb746f1.png)
+    - As above, on the home page, this was corrected by removing the button element from the play link.
+    ![image](https://user-images.githubusercontent.com/84344402/130334541-dbd9c6fe-5c0b-4e1c-a34d-48a0d8a30ea1.png)
+    
+    - The link was then styled to resemle a button, in keeping with the rest of the site:
+    
+    ![image](https://user-images.githubusercontent.com/84344402/130334614-98ce6f6c-6f9f-48e1-811b-912f8f41b635.png)
+
+    - The quiz page then passed through the validator with no further errors or warnings:
+    ![image](https://user-images.githubusercontent.com/84344402/130334635-cefffa2d-7978-4ae1-8a22-b0ef0e44903c.png)
 
 
 #### CSS
