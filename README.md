@@ -106,6 +106,8 @@ All html pages of this site were validated using [W3C validator](https://validat
 ![image](https://user-images.githubusercontent.com/84344402/130334711-16930143-fae7-4575-961b-9a7578e95f5d.png)
 
 #### JavaScript
+All JavaScript files for this site were validated using [JSHint](https://jshint.com/)
+
 
 ### Manual Testing
 
