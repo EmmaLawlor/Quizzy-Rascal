@@ -8,6 +8,7 @@ const answerA = document.getElementById('a');
 const answerB = document.getElementById('b');
 const answerC = document.getElementById('c');
 const answerD = document.getElementById('d');
+const answerBtn = document.getElementsByClassName('answer-btn');
 
 const result = document.getElementById('result');
 
@@ -99,7 +100,6 @@ function checkAnswer(userChoice) {
         displayUserResult();
     }
 
-
 }
 
 /**
@@ -145,6 +145,7 @@ function musicControl() {
         document.getElementById("music-on").classList.remove('hide');
     }
 }
+
 
 //List of trivia questions
 let questions = [{
