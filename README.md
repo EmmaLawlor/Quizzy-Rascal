@@ -99,8 +99,11 @@ All html pages of this site were validated using [W3C validator](https://validat
     - The quiz page then passed through the validator with no further errors or warnings:
     ![image](https://user-images.githubusercontent.com/84344402/130334635-cefffa2d-7978-4ae1-8a22-b0ef0e44903c.png)
 
-
 #### CSS
+- The CSS file for this was validated using the [W3C Validator](https://jigsaw.w3.org/css-validator/)
+- When passed through the validator, the CSS file returned no errors or warnings
+
+![image](https://user-images.githubusercontent.com/84344402/130334711-16930143-fae7-4575-961b-9a7578e95f5d.png)
 
 #### JavaScript
 
