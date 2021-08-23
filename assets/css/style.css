@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-color: #ccc;
     font-family: 'Nova Round', cursive;
-    color: #0000ff;
+    color: #ffff00;
 }
 
 #home-page-heading {
@@ -24,14 +24,14 @@ h1 {
     text-align: center;
     letter-spacing: 2px;
     font-size: 8vw;
-    text-shadow: 2px 2px #ffff00;
+    text-shadow: 2px 2px #0000ff;
 }
 
 h2 {
     font-size: 5vw;
     margin-top: 0.2em;
     text-align: center;
-    text-shadow: 1px 1px #ffff00;
+    text-shadow: 1px 1px #0000ff;
 }
 
 /*Container for play and rules buttons*/
