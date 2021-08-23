@@ -161,7 +161,15 @@ All html pages of this site were validated using [W3C validator](https://validat
 
 #### JavaScript
 All JavaScript files for this site were validated using [JSHint](https://jshint.com/)
+- The script for the Rules modal returned no errors or warnings
+![image](https://user-images.githubusercontent.com/84344402/130522884-6aea01f7-83f6-46bc-b465-d78bd1797620.png)
 
+- The file for the quiz page returned the following
+
+![image](https://user-images.githubusercontent.com/84344402/130523014-e1ab75a5-ea8f-44d6-a56d-a0d0633b927a.png)
+
+- The JavaScript file for the Result page returned no errors or warnings 
+![image](https://user-images.githubusercontent.com/84344402/130523108-2eef7482-ea0f-4586-810e-a1f41bbed627.png)
 
 ### Manual Testing
 Manual testing of all features of the site were carried out on a number of devices and browsers, as detailed in [this document](https://1drv.ms/b/s!AtrJulJDGsm2pgfk5eR_CTdHovEF)
