@@ -169,7 +169,21 @@ Manual testing of all features of the site were carried out on a number of devic
 *Preview*
 ![image](https://user-images.githubusercontent.com/84344402/130518972-c83cbc1b-300c-4617-a4ad-7ea1bb51313d.png)
 
-### Cross Browser Testing
+### Cross Browser and Device Testing
+The site was tested across a number of devices and browsers to ensure all elements function correctly and appear as expected. The browsers and devices tested are as follows:
+
+| TOOL / Device                   | BROWSER     | OS         | SCREEN WIDTH  |
+|-------------------------------  |-------------|------------|---------------|
+| real phone: iPhone8             | safari      | iOs        | XS 375 x 667  |
+| real phone: iPhone11            | safari      | iOs        | XS 414 x 896  |
+| real phone: samsung galaxy s10  | chrome      | android    | XS 360 x 740  |
+| real tablet: ipad Air 2         | safari      | iOs        | M 768 x 1024  |
+| real computer: avita laptop     | chrome      | windows 10 | XL 1366 x 768 |
+| real computer: avita laptop     | firefox     | windows 10 | XL 1366 x 768 |
+| real computer: dell desktop     | chrome      | windows 10 | XL 1920 x 1080|
+| dev tools emulator: iPhone5s    | safari      | iOs        | XS 320 x 568  |
+| dev tools emulator: ipad pro    | safari      | iOs        | L 1024 x 1366 |
+| dev tools emulator: MS lumia550 | edge        | windows    | XS 360 x 640  |
 
 ### Defects
 
