@@ -91,6 +91,17 @@ https://emmalawlor.github.io/quizzy-rascal/
 - Rules Modal: Again located in the center of the home page, the rules button activates a modal which simplpy describes how to play the quiz and how scoring works. This makes the quiz quite simple for any user to play. The modal also features a play button which takes the user directly to the start of the quiz.
 ![image](https://user-images.githubusercontent.com/84344402/130509865-b496db37-3062-4213-89b1-9f0ec7fc3586.png)
 
+- Home Link: Featured in the top-left corner of the Quiz page, this hoouse icon acts a direct link back to the Home page making site navigation simple for the user. 
+
+![image](https://user-images.githubusercontent.com/84344402/130510829-587a73f5-8572-4cd1-86f6-8c839c4a1355.png)
+
+- Audio Control: Located in the top-center of the Quiz page, this allows the user to control the background usic which available while playing the quiz. The background music can easily be toggled on/off with a simple click of the volume icon. 
+
+![image](https://user-images.githubusercontent.com/84344402/130510957-20956f35-9727-498a-9f6c-b5db90fef763.png)
+![image](https://user-images.githubusercontent.com/84344402/130511002-7a103c6b-e4b4-40bf-a278-b07e87375d30.png)
+
+-Score Tracker: Located in the top-right of the quiz page, this keeps track of and prominently displays the user's score throuhgout the quiz. It increments by 1 point each time a question is answered correctly. 
+![image](https://user-images.githubusercontent.com/84344402/130511411-1f578456-49fd-4819-a78c-834f9d67575f.png)
 
 ### Future Features to Implement
 
