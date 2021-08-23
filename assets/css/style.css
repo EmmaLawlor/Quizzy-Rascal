@@ -157,6 +157,7 @@ h2 {
 
 /*Score container*/
 #score-area {
+    color: #0000ff;
     margin: 0.5rem;
     font-size: 1.6rem;
     text-align: center;
@@ -169,6 +170,7 @@ h2 {
 
 /*Quiz page styles*/
 #question-container {
+    color: #0000ff;
     font-size: 3.8vw;
     margin: 0.5rem;
     text-align: center;
