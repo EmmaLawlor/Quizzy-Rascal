@@ -310,7 +310,7 @@ let questions = [{
             a: "Saxaphone",
             b: "Violin",
             c: "Flute",
-            d: "Piana"
+            d: "Piano"
         },
         correctAnswer: "c"
     },
