@@ -36,6 +36,7 @@ https://emmalawlor.github.io/quizzy-rascal/
     - The 'Nova Round' font from [Google Fonts](https://fonts.google.com/specimen/Nova+Round) was used throughout the site.
     
     ![image](https://user-images.githubusercontent.com/84344402/130508625-44e97d2f-e8a0-420b-ac7e-2a407aa2f88c.png)
+    -A fallback font of cursive was used in case of any broswer compatability issues with chosen fonts.
 
 - Images
 
@@ -80,6 +81,16 @@ https://emmalawlor.github.io/quizzy-rascal/
 
 
 ### Implemented Features
+- Heading & Sub-heading: prominently positioned in the top center pf the window on both the home page and result page. The inculsion of these give the user a very clear indictaion of what the site is about. 
+-![image](https://user-images.githubusercontent.com/84344402/130509464-64570996-720e-42c8-8078-c3cdcbaf14e4.png)
+
+- Play Button: Located in the center of the home page, this take the user straight to the start of their quiz game makiing the site very easy to navigate.
+
+![image](https://user-images.githubusercontent.com/84344402/130509645-be6459ca-a144-4f25-84c6-a65275381c61.png)
+
+- Rules Modal: Again located in the center of the home page, the rules button activates a modal which simplpy describes how to play the quiz and how scoring works. This makes the quiz quite simple for any user to play. The modal also features a play button which takes the user directly to the start of the quiz.
+![image](https://user-images.githubusercontent.com/84344402/130509865-b496db37-3062-4213-89b1-9f0ec7fc3586.png)
+
 
 ### Future Features to Implement
 
