@@ -164,6 +164,10 @@ All JavaScript files for this site were validated using [JSHint](https://jshint.
 
 
 ### Manual Testing
+Manual testing of all features of the site were carried out on a number of devices and browsers, as detailed in [this document](https://1drv.ms/b/s!AtrJulJDGsm2pgfk5eR_CTdHovEF)
+
+*Preview*
+![image](https://user-images.githubusercontent.com/84344402/130518972-c83cbc1b-300c-4617-a4ad-7ea1bb51313d.png)
 
 ### Cross Browser Testing
 
