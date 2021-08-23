@@ -1,16 +1,12 @@
 /*jshint esversion: 6 */
 
 //Get all HTML elements for use in functions 
-const quizBox = document.getElementById('quiz-area');
 
 const question = document.getElementById('question-container');
 const answerA = document.getElementById('a');
 const answerB = document.getElementById('b');
 const answerC = document.getElementById('c');
 const answerD = document.getElementById('d');
-const answerBtn = document.getElementsByClassName('answer-btn');
-
-const result = document.getElementById('result');
 
 let questionNum;
 let currentQuestion;
