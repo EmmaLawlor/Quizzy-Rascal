@@ -1,5 +1,7 @@
 # Quizzy Rascal
 
+![image](https://user-images.githubusercontent.com/84344402/130507807-86dc40fc-00da-4232-acac-4583947160b3.png)
+
 ## Author
 Emma Lawlor
 
@@ -175,6 +177,7 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 ![image](https://user-images.githubusercontent.com/84344402/129630340-74afbddd-315a-4142-84c6-e2cc6f83da98.png)
 ![image](https://user-images.githubusercontent.com/84344402/129630453-651ab19a-b470-45f5-9007-ee11a1b217b3.png)
 
+- Screenshot of live site for this write-up created using [AmIResponsive](http://ami.responsivedesign.is/)
 
 ### Content
 - Trivia content for quiz questions take from [Radio Times](https://www.radiotimes.com/quizzes/pub-quiz-music-round/) and [Thought Catalog](https://thoughtcatalog.com/samantha-newman/2020/04/music-trivia-questions/)
