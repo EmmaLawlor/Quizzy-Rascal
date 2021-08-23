@@ -33,6 +33,9 @@ https://emmalawlor.github.io/quizzy-rascal/
 ### Design Choices
 
 - Typography
+    - The 'Nova Round' font from [Google Fonts](https://fonts.google.com/specimen/Nova+Round) was used throughout the site.
+    
+    ![image](https://user-images.githubusercontent.com/84344402/130508625-44e97d2f-e8a0-420b-ac7e-2a407aa2f88c.png)
 
 - Images
 
