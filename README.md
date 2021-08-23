@@ -111,6 +111,13 @@ https://emmalawlor.github.io/quizzy-rascal/
 ![image](https://user-images.githubusercontent.com/84344402/130514842-e429c537-c848-420e-855d-9b7700bdf902.png)
 
 ### Future Features to Implement
+- Score Board
+    - This would allow the user to add their name and score to a leaderboard on the site. 
+    - This could keep a record of the top 5 or 10 users and their scores. 
+
+- Extend quiz options
+    - Create a number of music trivia categories based on music genres or decades of music.
+    - Add the option of selecting difficulty so user could answer easy or difficukt questions, depending on their music knowledge.
 
 ## Testing
 
