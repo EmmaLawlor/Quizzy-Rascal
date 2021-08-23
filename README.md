@@ -167,6 +167,9 @@ All JavaScript files for this site were validated using [JSHint](https://jshint.
 - The file for the quiz page returned the following
 
 ![image](https://user-images.githubusercontent.com/84344402/130523014-e1ab75a5-ea8f-44d6-a56d-a0d0633b927a.png)
+    - The first issue regarding displayUserResult is due to the file structure of the site. This function is defined in annother file and used here, which is not take into account by JSHint.
+    - Of the 5 unused variables detected, 3 were deleted from the file (quizBox, answerBtn and result) as they were not used in the project. 
+    - The variables checkAnswer and musicControl flagged as undefined as these are called from the html page using onclick fucntion. 
 
 - The JavaScript file for the Result page returned no errors or warnings 
 ![image](https://user-images.githubusercontent.com/84344402/130523108-2eef7482-ea0f-4586-810e-a1f41bbed627.png)
