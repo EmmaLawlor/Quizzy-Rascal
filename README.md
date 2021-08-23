@@ -36,7 +36,8 @@ https://emmalawlor.github.io/quizzy-rascal/
     - The 'Nova Round' font from [Google Fonts](https://fonts.google.com/specimen/Nova+Round) was used throughout the site.
     
     ![image](https://user-images.githubusercontent.com/84344402/130508625-44e97d2f-e8a0-420b-ac7e-2a407aa2f88c.png)
-    -A fallback font of cursive was used in case of any broswer compatability issues with chosen fonts.
+    
+    - A fallback font of cursive was used in case of any broswer compatability issues with chosen fonts.
 
 - Images
 
@@ -100,8 +101,14 @@ https://emmalawlor.github.io/quizzy-rascal/
 ![image](https://user-images.githubusercontent.com/84344402/130510957-20956f35-9727-498a-9f6c-b5db90fef763.png)
 ![image](https://user-images.githubusercontent.com/84344402/130511002-7a103c6b-e4b4-40bf-a278-b07e87375d30.png)
 
--Score Tracker: Located in the top-right of the quiz page, this keeps track of and prominently displays the user's score throuhgout the quiz. It increments by 1 point each time a question is answered correctly. 
+- Score Tracker: Located in the top-right of the quiz page, this keeps track of and prominently displays the user's score throuhgout the quiz. It increments by 1 point each time a question is answered correctly. 
 ![image](https://user-images.githubusercontent.com/84344402/130511411-1f578456-49fd-4819-a78c-834f9d67575f.png)
+
+- Quiz Area: Main play area of the quiz page. Question is displayed along with 4 multiple choice answer buttons. User selects their answer by clicking an answer button, which turns green if answer is correct or red if answer is incorrect. The quiz then displays the next set of question/answers after a short delay, up to a maximum of 10 questions.
+![image](https://user-images.githubusercontent.com/84344402/130514148-153ec3d4-d373-402a-b493-8036a08d1094.png)
+
+- Result Box: Displayed at the end of the 10 quiz questions, this shows the user their final score for the round. The result box also contains a 'play again' button which takes the user back to the quiz page to start another round of 10 questions, encouraging the user to continue playing the quiz. 
+![image](https://user-images.githubusercontent.com/84344402/130514842-e429c537-c848-420e-855d-9b7700bdf902.png)
 
 ### Future Features to Implement
 
