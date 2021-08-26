@@ -111,7 +111,7 @@ function checkAnswer(userChoice) {
 */
 function fadeOut() {
     document.querySelectorAll('.fade-me').forEach(elm => {
-        elm.style.opacity = 0.1;
+        elm.style.opacity = 0;
         elm.style.textShadow = '0 0 15px #000';
     });
  }
