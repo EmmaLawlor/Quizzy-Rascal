@@ -260,6 +260,7 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 - Code for incrementing user score was adapted from the Code Institute Love Maths walkthrough project
 - Help in centering the modal on the screen was sought from [Stack Overflow](https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen/39636961)
 - Help in fixing size of background image from [css-tricks.com](https://css-tricks.com/perfect-full-page-background-image/)
+- Help with fade transition on Quiz page was from [css-tricks.com](https://css-tricks.com/almanac/properties/t/transition/)
 
 ### Thank You
 - Thanks to Code Institute cohort facilitator Kasia for providing advice and learning resources as well as a listening ear, whenever needed. 
