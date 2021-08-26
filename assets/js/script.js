@@ -94,9 +94,9 @@ function checkAnswer(userChoice) {
 
                 setTimeout(function (){
                     fadeIn();
-                }, 400);
-            }, 400);
-        }, 400);
+                }, 300);
+            }, 300);
+        }, 300);
     } else if (currentQuestion >= 10) {
         setTimeout(function () {
             location.href = 'result.html';
