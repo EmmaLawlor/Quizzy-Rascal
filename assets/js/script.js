@@ -87,8 +87,16 @@ function checkAnswer(userChoice) {
      **/
     if (currentQuestion < 10) {
         setTimeout(function () {
-            displayQuestion();
-        }, 800);
+            fadeOut();
+
+            setTimeout(function (){
+                displayQuestion();
+
+                setTimeout(function (){
+                    fadeIn();
+                }, 400);
+            }, 400);
+        }, 400);
     } else if (currentQuestion => 10) {
         setTimeout(function () {
             location.href = 'result.html';
@@ -97,6 +105,27 @@ function checkAnswer(userChoice) {
     }
 
 }
+
+/**
+* Fade Out function
+*/
+function fadeOut() {
+    document.querySelectorAll('.fade-me').forEach(elm => {
+        elm.style.opacity = 0.1;
+        elm.style.textShadow = '0 0 15px #000';
+    });
+ }
+  
+ /**
+ * Fade In function
+ */
+ function fadeIn() {
+    document.querySelectorAll('.fade-me').forEach(elm => {
+        elm.style.opacity = 1;
+        elm.style.textShadow = 'none';
+    });
+ }
+ 
 
 /**
  * Sets score container to variable score

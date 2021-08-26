@@ -227,6 +227,10 @@ h2 {
     border-radius: 5px;
 }
 
+.fade-me{
+    transition: opacity 0.3s;
+}
+
 /*Result Page styles*/
 .result-container {
     display: grid;
