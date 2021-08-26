@@ -72,11 +72,9 @@ function displayQuestion() {
  */
 function checkAnswer(userChoice) {
     if (userChoice === questions[questionNum].correctAnswer) {
-        console.log("Correct!");
         document.getElementById(userChoice).classList.add("correct");
         incrementScore();
     } else {
-        console.log("Incorrect");
         document.getElementById(userChoice).classList.add("incorrect");
     }
     currentQuestion++;
