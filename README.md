@@ -61,6 +61,9 @@ https://emmalawlor.github.io/quizzy-rascal/
     - Color codes were take from [htmlcolorcodes.com](https://htmlcolorcodes.com/)
 
 - Transitions/Animations
+    - A fade in/out effect was applied to the quiz-area of the Quiz page to enhance user experience and visual appearance. 
+    - When the user selects and answer to the displayed question, the answer button first turns red or green depending on whether the answer was correct/incorrect.
+    - The entire quiz container then fades out and fades back in, displaing a new question to the user. 
 
 ### Wireframes
 - The wireframes for this project were created using (Balsamiq)[https://balsamiq.com/]
@@ -206,8 +209,10 @@ The site was tested across a number of devices and browsers to ensure all elemen
 - The GitHub Issues section allowed for close out of defects as they were rectified, again using screenshots to show the solution when possible. 
 
 #### Outstanding Defects
+- No outstanding defects have been noted. 
 
 ### Spelling and Grammar
+- The text content of the site was checked for spelling and grammar errors using [Grammarly](https://www.grammarly.com/)
 
 ## Accessibility
 
