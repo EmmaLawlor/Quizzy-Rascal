@@ -80,7 +80,9 @@ function checkAnswer(userChoice) {
     currentQuestion++;
 
     /**
-     * Displays new question after a short delay, up to a max 10 questions
+     * Checks if the user has had less than 10 questions
+     * Fades out previous question
+     * Displays new question then fades back in
      * Ends quiz after 10 questions, takes user to results page
      **/
     if (currentQuestion < 10) {

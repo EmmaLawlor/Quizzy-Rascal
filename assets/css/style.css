@@ -227,6 +227,7 @@ h2 {
     border-radius: 5px;
 }
 
+/*Fade effect for quiz play area*/
 .fade-me{
     transition: opacity 0.3s;
 }
