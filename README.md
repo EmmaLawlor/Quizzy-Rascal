@@ -64,6 +64,7 @@ https://emmalawlor.github.io/quizzy-rascal/
     - A fade in/out effect was applied to the quiz-area of the Quiz page to enhance user experience and visual appearance. 
     - When the user selects and answer to the displayed question, the answer button first turns red or green depending on whether the answer was correct/incorrect.
     - The entire quiz container then fades out and fades back in, displaing a new question to the user. 
+    - Before adding this fading effect, the divs appeared a little jumpy when displaying a new question. This transition makes the change to a new question appear more seamless. 
 
 ### Wireframes
 - The wireframes for this project were created using (Balsamiq)[https://balsamiq.com/]
@@ -125,7 +126,7 @@ https://emmalawlor.github.io/quizzy-rascal/
 - Enhance CSS
     - Use CSS to help display the focused button on the quiz more clearly when tabbing through the page via keyboard. 
     - At present the default blue highlight blends with the style of the buttons on the page. 
-    
+
 ## Testing
 
 ### Validation Testing
