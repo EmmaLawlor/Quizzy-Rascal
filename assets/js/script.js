@@ -197,7 +197,7 @@ let questions = [{
         correctAnswer: "b"
     },
     {
-        question: "Jimmy, Robert, John and John: can you identify this rock band from the first names of the oridinal line-up?",
+        question: "Jimmy, Robert, John and John: can you identify this rock band from the first names of the original line-up?",
         answers: {
             a: "Led Zeppelin",
             b: "AC/DC",
@@ -290,7 +290,7 @@ let questions = [{
         question: "Though made famous by Ike & Tina Turner, 'Proud Mary' was first recorded by whom?",
         answers: {
             a: "The Doors",
-            b: "Lynyrd Synyrd",
+            b: "Lynyrd Skynyrd",
             c: "Led Zeppelin",
             d: "Creedence Clearwater Revival"
         },
@@ -379,7 +379,7 @@ let questions = [{
     {
         question: "Which Pink Floyd album features a prism on the cover?",
         answers: {
-            a: "Dark side of the moon",
+            a: "Dark Side of the Moon",
             b: "Animals",
             c: "The Wall",
             d: "The Division Bell"
