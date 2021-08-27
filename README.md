@@ -14,6 +14,38 @@ The name was chosen as a play on the stage name of English rapper Dizzee Rascal,
 https://emmalawlor.github.io/quizzy-rascal/
 
 ## Table of Contents
+- [Quizzy Rascal](#quizzy-rascal)
+  * [Author](#author)
+  * [Project Overview](#project-overview)
+  * [Deployed Site](#deployed-site)
+  * [Table of Contents](#table-of-contents)
+  * [UX](#ux)
+    + [Project Goals](#project-goals)
+      - [As the Site Owner I Want to:](#as-the-site-owner-i-want-to-)
+      - [As the Site User I Want to:](#as-the-site-user-i-want-to-)
+    + [Design Choices](#design-choices)
+    + [Wireframes](#wireframes)
+    + [Implemented Features](#implemented-features)
+    + [Future Features to Implement](#future-features-to-implement)
+  * [Testing](#testing)
+    + [Validation Testing](#validation-testing)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [JavaScript](#javascript)
+    + [Manual Testing](#manual-testing)
+    + [Cross Browser and Device Testing](#cross-browser-and-device-testing)
+    + [Defects](#defects)
+      - [Defects of Note](#defects-of-note)
+      - [Outstanding Defects](#outstanding-defects)
+    + [Spelling and Grammar](#spelling-and-grammar)
+  * [Accessibility](#accessibility)
+    + [Keyboard Navigation](#keyboard-navigation)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Media](#media)
+    + [Content](#content)
+    + [Acknowledgements](#acknowledgements)
+    + [Thank You](#thank-you)
 
 ## UX
 
@@ -273,6 +305,7 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 - Help in fixing size of background image from [css-tricks.com](https://css-tricks.com/perfect-full-page-background-image/)
 - Help with fade transition on Quiz page was from [css-tricks.com](https://css-tricks.com/almanac/properties/t/transition/)
 - Much help in constructing the basic quiz and JavaScript functions was got from [this tutorial](https://youtu.be/f4fB9Xg2JEY) by [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
+- Readme table of contents created using [https://ecotrust-canada.github.io/markdown-toc/](https://ecotrust-canada.github.io/markdown-toc/)
 
 ### Thank You
 - Thanks to Code Institute cohort facilitator Kasia for providing advice and learning resources as well as a listening ear, whenever needed. 
