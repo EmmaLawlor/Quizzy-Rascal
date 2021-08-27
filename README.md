@@ -84,14 +84,14 @@ https://emmalawlor.github.io/quizzy-rascal/
  and blue(#0000ff) ![image](https://user-images.githubusercontent.com/84344402/130504866-b10213ee-d192-4533-9b86-4f971e7a2b66.png)
  colors were chosen for the site to maintain the fun feel of the site. 
     - As seen in the wireframes, the Quizzy Rascal heading and sub-heading were originally intended to be blue. 
-    - The [WebAIM](https://webaim.org/resources/contrastchecker/) site was used to check the contrast of both colours against a background of black, the predominant color of the background image. 
+    - The [WebAIM](https://webaim.org/resources/contrastchecker/) site was used to check the contrast of both colours against a background of black, the predominant colour of the background image. 
     - The blue(#0000ff) color failed the contrast check in terms of accessibility.
     ![image](https://user-images.githubusercontent.com/84344402/130504388-2ec94089-bc58-4f62-a871-5057cdae7aee.png)
 
-    - The yellow(#ffff00) color passed the contrast check, and so the heading and sub-heading were changed to this font color to improve visual accessibility. 
+    - The yellow(#ffff00) colour passed the contrast check, and so the heading and sub-heading were changed to this font colour to improve visual accessibility. 
     ![image](https://user-images.githubusercontent.com/84344402/130504563-107f846c-a319-4b21-8dc6-8471b95199d4.png)
     
-    - Color codes were taken from [htmlcolorcodes.com](https://htmlcolorcodes.com/)
+    - Colour codes were taken from [htmlcolorcodes.com](https://htmlcolorcodes.com/)
 
 - Transitions/Animations
     - A fade-in/out effect was applied to the quiz area of the Quiz page to enhance user experience and visual appearance. 
