@@ -14,7 +14,7 @@ let questionsAsked = [];
 
 /**
  * Initialises the quiz game
- * Generates a random number to select a quiestion from the questions array
+ * Generates a random number to select a question from the questions array
  * Calls displayQuestion function
  * Sets current question and current score to 0 at start of quiz
  * To create the quiz I followed this youtube tutorial
@@ -28,7 +28,7 @@ function playQuiz() {
 }
 
 /**
- * The getRandomQuestion() funtion returns a random question from the list
+ * The getRandomQuestion() function returns a random question from the list
  * of questions to ask
  * @returns a question index 
  */
@@ -70,7 +70,7 @@ function displayQuestion() {
 }
 
 /**
- * Checks user's chosen answer against the correct answer from question array
+ * Checks user's chosen answer against the correct answer from questions array
  * Executes when user clicks an answer button
  */
 function checkAnswer(userChoice) {
@@ -138,7 +138,7 @@ const score = document.getElementById('score');
 
 /**
  * Get current score and increments by 1 each time the function is called
- * Code adapted from CI love maths walktrhough project
+ * Code adapted from CI love maths walkthrough project
  */
 function incrementScore() {
 
@@ -150,7 +150,7 @@ function incrementScore() {
 
 /**
  * Sets background music
- * Starts with music off be default
+ * Starts with music off by default
  * Sets music to 50% volume
  */
 let bgmusic = document.getElementById('bgMusic');
