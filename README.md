@@ -106,17 +106,22 @@ https://emmalawlor.github.io/quizzy-rascal/
     - Desktop View: Home, Quiz and Result Pages
     
     ![image](https://user-images.githubusercontent.com/84344402/129425119-0f04b530-abef-4505-88c6-e29fe6add371.png)
-
+    ![image](https://user-images.githubusercontent.com/84344402/131180828-df994e02-3400-4306-8b00-3dfb6b3dba1c.png)
+    ![image](https://user-images.githubusercontent.com/84344402/131181007-b7b401da-e47e-4fa8-a8bf-a8c30bf6b94c.png)
 
     - Mobile View: Home, Quiz and Result Pages
     
     ![image](https://user-images.githubusercontent.com/84344402/129425193-ececaa72-b0bb-4846-bb64-5050ee13e758.png)
-
+    ![image](https://user-images.githubusercontent.com/84344402/131180894-5627eba9-ebeb-4f5b-9c2f-68ec2c16a762.png)
+    ![image](https://user-images.githubusercontent.com/84344402/131181089-f8865b15-7a1c-4876-8abe-22fa466b427a.png)
 
     - Tablet View: Home, Quiz and Result Pages
     
     ![image](https://user-images.githubusercontent.com/84344402/129425052-77deec35-7028-47dd-aa99-06aa311d25ad.png)
+    ![image](https://user-images.githubusercontent.com/84344402/131180961-8fefe5ab-a9a6-4cf5-b2fc-a13d3d756de8.png)
+    ![image](https://user-images.githubusercontent.com/84344402/131181164-c870ab7a-fa1b-4050-8107-22035e0cdfa0.png)
 
+[Quizzy Rascal Wireframes](https://1drv.ms/b/s!AtrJulJDGsm2pl-VpVw5-fjdsVzS)
 
 ### Implemented Features
 - Heading & Sub-heading: prominently positioned in the top centre of the window on both the home page and result page. The inclusion of these gives the user a very clear indication of what the site is about. 
