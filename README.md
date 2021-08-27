@@ -39,6 +39,7 @@ https://emmalawlor.github.io/quizzy-rascal/
       - [Outstanding Defects](#outstanding-defects)
     + [Spelling and Grammar](#spelling-and-grammar)
   * [Accessibility](#accessibility)
+    + [Lighthouse Audits](#lighthouse-audits)
     + [Keyboard Navigation](#keyboard-navigation)
   * [Deployment](#deployment)
   * [Credits](#credits)
