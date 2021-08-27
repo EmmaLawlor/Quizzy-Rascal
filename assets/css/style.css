@@ -281,15 +281,16 @@ h2 {
 }
 
 #error-message h3 {
-    font-size: 2rem;
+    font-size: 4vw;
     padding: 10px;
-    justify-self: center;
+    text-align: center;
 }
 
 #error-message p {
-    font-size: 1.5rem;
+    font-size: 3vw;
     padding: 20px;
     font-weight: 600;
+    text-align: center;
 }
 
 #error-message a {
