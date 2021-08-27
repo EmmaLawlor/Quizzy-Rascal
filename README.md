@@ -256,6 +256,17 @@ The site was tested across a number of devices and browsers to ensure all elemen
 
 ## Accessibility
 
+### Lighthouse Audits
+- All 3 HTML pages were tested using Google Chrome's Lighthouse audit function and returned good results in all categories.
+ - Home Page
+ ![image](https://user-images.githubusercontent.com/84344402/131173141-4dc452ce-2f6b-4067-a6cc-31b607dee99a.png)
+
+ - Quiz Page
+ ![image](https://user-images.githubusercontent.com/84344402/131173261-0c9c3996-119e-41a3-ab96-3762c3262778.png)
+
+ - Results Page
+ ![image](https://user-images.githubusercontent.com/84344402/131173389-8cde3e3e-04a3-40ca-a57a-d453c5b5646d.png)
+
 ### Keyboard Navigation
 - Keyboard navigation could be improved by highlighting the button outline better. 
 - This was not implemented on the site so as not to deviate from the style of the site. 
