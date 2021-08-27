@@ -300,9 +300,9 @@ h2 {
 .error-btn {
     background-color: #0000ff;
     color: #ffff00;
-    margin-bottom: 20px;
-    text-decoration: none;
-    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #ffff00;
+    font-size: 4vw;
 }
 
 /* Music Controller */
