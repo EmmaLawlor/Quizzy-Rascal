@@ -122,6 +122,10 @@ https://emmalawlor.github.io/quizzy-rascal/
     - Create a number of music trivia categories based on music genres or decades of music.
     - Add the option of selecting difficulty so user could answer easy or difficukt questions, depending on their music knowledge.
 
+- Enhance CSS
+    - Use CSS to help display the focused button on the quiz more clearly when tabbing through the page via keyboard. 
+    - At present the default blue highlight blends with the style of the buttons on the page. 
+    
 ## Testing
 
 ### Validation Testing
@@ -217,8 +221,9 @@ The site was tested across a number of devices and browsers to ensure all elemen
 ## Accessibility
 
 ### Keyboard Navigation
-
-### Screen Reader
+- Keyboard navigation could be improved by highlighting the button outline better. 
+- This was not implemented on the site so as not to deviate from the style of the site. 
+- Future development could focus on improving the button highlight using CSS
 
 ## Deployment
 
