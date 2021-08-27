@@ -6,7 +6,7 @@
 Emma Lawlor
 
 ## Project Overview
-Quizzy Rascal is an interactive music trivia quiz. Desgined to provide entertainment to the user, the quiz asks 10 random music questions.The quiz is presented in a multiple choice format, displaying the correct/incorrect answers on submission and keeping track of user's score at the bottom of the window. 
+Quizzy Rascal is an interactive music trivia quiz. Desgined to provide entertainment to the user, the quiz asks 10 random music questions.The quiz is presented in a multiple choice format, displaying the correct/incorrect answers on submission and keeping track of user's score at the bottom of the window. The randon question is selected from an array of over 20 questions, meaning the round of 10 questions will vary slightly each time the quiz is played, keeping the site interesting for the user. 
 
 The name was chosen as a play on the stage name of English rapper Dizzee Rascal, helping to set a fun and lighthearted tone. 
 
