@@ -281,13 +281,13 @@ h2 {
 }
 
 #error-message h3 {
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 10px;
     text-align: center;
 }
 
 #error-message p {
-    font-size: 3vw;
+    font-size: 2vw;
     padding: 10px;
     font-weight: 600;
     text-align: center;
@@ -302,7 +302,7 @@ h2 {
     color: #ffff00;
     margin: 10px auto;
     border: 2px solid #ffff00;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 /* Music Controller */
