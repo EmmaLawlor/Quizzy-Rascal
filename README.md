@@ -114,6 +114,9 @@ https://emmalawlor.github.io/quizzy-rascal/
 - Result Box: Displayed at the end of the 10 quiz questions, this shows the user their final score for the round. The result box also contains a 'play again' button which takes the user back to the quiz page to start another round of 10 questions, encouraging the user to continue playing the quiz. 
 ![image](https://user-images.githubusercontent.com/84344402/130514842-e429c537-c848-420e-855d-9b7700bdf902.png)
 
+- 404 Error Page: Included to improve user experience should they encounter a 404 error while using the site. The 404 page is styled in the same colors and font as the rest of the site and features the same background image, maintaining a sense of familiarity should an error occur. The light-hearted error message tells the user that something is "off-key" and prompts them to get back on "the right track" in reference to the musical theme of the site. The page simply features 2 links to allow the user to go back to the home page or directly to start the quiz, keeping the site easy to navigate and user-friendly. 
+![image](https://user-images.githubusercontent.com/84344402/131112480-5c1da2eb-11c9-483d-b1ec-8071be3fc810.png)
+
 ### Future Features to Implement
 - Score Board
     - This would allow the user to add their name and score to a leaderboard on the site. 
