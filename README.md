@@ -201,6 +201,9 @@ All HTML pages of this site were validated using [W3C validator](https://validat
 
     - The quiz page then passed through the validator with no further errors or warnings:
     ![image](https://user-images.githubusercontent.com/84344402/130334635-cefffa2d-7978-4ae1-8a22-b0ef0e44903c.png)
+    
+    - The 404 error page passed through the validator with no errors or warnings:
+    ![image](https://user-images.githubusercontent.com/84344402/131182420-0f15d563-7c9b-4925-8c3d-9093b336acef.png)
 
 #### CSS
 - The CSS file for this was validated using the [W3C Validator](https://jigsaw.w3.org/css-validator/)
