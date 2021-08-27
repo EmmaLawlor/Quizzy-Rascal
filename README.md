@@ -74,7 +74,7 @@ https://emmalawlor.github.io/quizzy-rascal/
 
 - Images
 
-    - [Background Image](https://github.com/EmmaLawlor/quizzy-rascal/blob/main/assets/images/music-notes.jpg0) of black and white music notes chosen as it is in keeping with the musical theme of the quiz. The same image was used across all pages of the site to maintain a sense of familiarity and to keep the overall layout simple and content-focused. 
+    - [Background Image](https://github.com/EmmaLawlor/quizzy-rascal/blob/main/assets/images/music-notes.jpg) of black and white music notes chosen as it is in keeping with the musical theme of the quiz. The same image was used across all pages of the site to maintain a sense of familiarity and to keep the overall layout simple and content-focused. 
 
 ![Background Image](documentation/background-image.jpg)
 
