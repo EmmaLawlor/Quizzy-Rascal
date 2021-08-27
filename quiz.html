@@ -38,7 +38,7 @@
     </div>
 
     <!-- Main quiz area -->
-    <div class="container">
+    <div class="container" id="js-enabled-only" style="display: none;">
         <div id="quiz-area" class="fade-me">
             <!-- Question Box -->
             <div id="question-container">
@@ -53,6 +53,15 @@
             </div>
         </div>
     </div>
+
+    <!--No script content which displays if JavaScript is disabled-->
+    <noscript>
+        <div id="no-script">
+            <h3>Javascript must be enabled to enjoy this site to it's fullest.</h3>
+            <p><a href="https://www.google.com/search?q=enable+javascript" target="_blank">
+                    Click Here</a> to search how to do this on your browser.</p>
+        </div>
+    </noscript>
 
     <!-- Audio file for background music, downloaded from https://www.playonloop.com/freebies-download/ -->
     <audio id="bgMusic" src="assets/audio/bg-music.wav"></audio>

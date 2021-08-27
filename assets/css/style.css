@@ -229,8 +229,38 @@ h2 {
 }
 
 /*Fade effect for quiz play area*/
-.fade-me{
+.fade-me {
     transition: opacity 0.5s ease;
+}
+
+/*No script content if JavaScript is disabled*/
+#no-script {
+    display: grid;
+    justify-content: center;
+    margin: 50px auto;
+    width: 80%;
+    background-color: #ffff00;
+    color: #0000ff;
+    border: 3px solid #0000ff;
+    border-radius: 5px;
+}
+
+#no-script h3 {
+    font-size: 4vw;
+    text-align: center;
+    padding: 10px;
+}
+
+#no-script p {
+    font-size: 3vw;
+    padding: 10px;
+}
+
+#no-script a {
+    background-color: #0000ff;
+    color: #ffff00;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /*Result Page styles*/

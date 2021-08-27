@@ -1,5 +1,15 @@
 /*jshint esversion: 6 */
 
+/**
+ * Waits for window content to load
+ * Changes display of quiz container from none to grid when JavaScript is enabled
+ * Code for onload event adapted from W3Schools
+ * https://www.w3schools.com/jsref/event_onload.asp
+ */
+window.onload = function() {
+    document.getElementById("js-enabled-only").style.display = "grid";
+};
+
 //Get all HTML elements for use in functions 
 
 const question = document.getElementById('question-container');
