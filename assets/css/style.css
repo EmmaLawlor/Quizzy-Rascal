@@ -303,6 +303,7 @@ h2 {
     margin: 10px auto;
     border: 2px solid #ffff00;
     font-size: 3vw;
+    border-radius: 5px;
 }
 
 /* Music Controller */
