@@ -17,6 +17,9 @@ let questionsAsked = [];
  * Generates a random number to select a quiestion from the questions array
  * Calls displayQuestion function
  * Sets current question and current score to 0 at start of quiz
+ * To create the quiz I followed this youtube tutorial
+ * https://www.youtube.com/watch?v=f4fB9Xg2JEY
+ * Code was modified to suit this project
  */
 function playQuiz() {
     currentQuestion = 0;
