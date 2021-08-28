@@ -74,7 +74,7 @@ https://emmalawlor.github.io/quizzy-rascal/
 
 - Images
 
-    - [Background Image](https://github.com/EmmaLawlor/quizzy-rascal/blob/main/assets/images/music-notes.jpg0) of black and white music notes chosen as it is in keeping with the musical theme of the quiz. The same image was used across all pages of the site to maintain a sense of familiarity and to keep the overall layout simple and content-focused. 
+    - [Background Image](https://github.com/EmmaLawlor/quizzy-rascal/blob/main/assets/images/music-notes.jpg) of black and white music notes chosen as it is in keeping with the musical theme of the quiz. The same image was used across all pages of the site to maintain a sense of familiarity and to keep the overall layout simple and content-focused. 
 
 ![Background Image](documentation/background-image.jpg)
 
@@ -154,6 +154,9 @@ https://emmalawlor.github.io/quizzy-rascal/
 
 - 404 Error Page: Included to improve user experience should they encounter a 404 error while using the site. The 404 page is styled in the same colours and font as the rest of the site and features the same background image, maintaining a sense of familiarity should an error occur. The light-hearted error message tells the user that something is "off-key" and prompts them to get back on "the right track" in reference to the musical theme of the site. The page simply features 2 links to allow the user to go back to the home page or directly to start the quiz, keeping the site easy to navigate and user-friendly. 
 ![image](https://user-images.githubusercontent.com/84344402/131112480-5c1da2eb-11c9-483d-b1ec-8071be3fc810.png)
+
+- No Script: This element was included to cater for the possibility that JavaScript may be disabled on the user's browser. It consists of a simple message informing the user that JavaScript is required in order to play the quiz. The user is also given a link that takes them to a Google search, which will provide instructions on how to enable JavaScript, thus allowing them to progress with the quiz. The Google link opens in a new tab, keeping the user on the Quizzy Rascal site.
+![image](https://user-images.githubusercontent.com/84344402/131186628-70f7b4db-efa8-4348-99f6-7a13101603ac.png)
 
 ### Future Features to Implement
 - Score Board
@@ -327,6 +330,7 @@ The site was deployed from its [GitHub Repository](https://github.com/EmmaLawlor
 - Help in centering the modal on the screen was sought from [Stack Overflow](https://stackoverflow.com/questions/39627549/how-to-center-modal-to-the-center-of-screen/39636961)
 - Help in fixing the size of the background image from [css-tricks.com](https://css-tricks.com/perfect-full-page-background-image/)
 - Help with the fade transition on Quiz page was from [css-tricks.com](https://css-tricks.com/almanac/properties/t/transition/)
+- Code for window onload event adapted from [W3Schools](https://www.w3schools.com/jsref/event_onload.asp)
 - Much help in constructing the basic quiz and JavaScript functions was got from [this tutorial](https://youtu.be/f4fB9Xg2JEY) by [Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
 - Readme table of contents created using [https://ecotrust-canada.github.io/markdown-toc/](https://ecotrust-canada.github.io/markdown-toc/)
 
