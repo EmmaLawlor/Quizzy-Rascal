@@ -138,7 +138,6 @@ function fadeOut() {
         elm.style.textShadow = 'none';
     });
  }
- 
 
 /**
  * Sets score container to variable score
@@ -183,7 +182,6 @@ function musicControl() {
         document.getElementById("music-on").classList.remove('hide');
     }
 }
-
 
 //List of trivia questions
 let questions = [{
