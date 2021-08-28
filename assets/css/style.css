@@ -395,6 +395,9 @@ h2 {
         grid-template-rows: auto;
         grid-template-columns: auto;
         margin: auto;
-        font-size: 5vw;
+    }
+    
+    .answer-btn {
+        font-size: 4.5vw;
     }
 }
